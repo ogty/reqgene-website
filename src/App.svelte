@@ -40,7 +40,7 @@
 			<Generate />
 		</Route>
     </main>
-	<footer class="h-18 border-t-2 w-full flex flex-row">
+	<footer class="h-20 border-t-2 w-full flex flex-row">
 		<div class="basis-1/4 mt-5 ml-5">
 			<span class="px-auto mx-auto text-xl font-bold border-zinc-900">
 				requirements.txt Generator
