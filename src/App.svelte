@@ -40,15 +40,25 @@
 			<Generate />
 		</Route>
     </main>
-	<footer class="h-100 border-t-2">
-		requirements.txt Generator
-
-		We are TECH.C. 2022
-		<a href="https://github.com/ogty/requirements.txt-generator" target="_blank">
-			<i class="fab fa-github"></i>
-			<span class="name">ogty</span>
-		</a>
-		&copy;2022 ogty
+	<footer class="h-16 border-t-2 w-full flex flex-row">
+		<div class="basis-1/4 mt-5 ml-5">
+			<span class="px-auto mx-auto text-xl font-bold border-zinc-900">
+				requirements.txt Generator
+			</span>
+		</div>
+		<div class="basis-1/4 mt-6">
+			<span class="px-auto mx-auto font-bold border-zinc-900">We are TECH.C. 2022</span>
+		</div>
+		<div class="basis-1/4 mt-5">
+			<a href="https://github.com/ogty/requirements.txt-generator" target="_blank">
+				<i class="fab fa-github md:text-3xl"></i>
+			</a>	
+		</div>
+		<div class="basis-1/4 mt-5 mr-5">
+			<span class="float-right">
+				&copy;2022 ogty
+			</span>
+		</div>
 	</footer>
 </Router>
 

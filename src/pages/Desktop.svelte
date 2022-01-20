@@ -48,7 +48,33 @@
 </div>
 
 <div class="mt-10">
-    <div class="m-auto p-auto" style="width: 900px;">
+    <div class="mx-auto px-auto" style="width: 900px;">
         <Image src="images/sample.gif"/>
     </div>
 </div>
+
+<div class="text-center mb-6">
+    <div class="w-xl">
+        <h1 class="text-6xl font-bold text-slate-900">Multiple language<br>support</h1>
+        <p class="text-2xl mt-4">
+            Julia and jupyter notebooks also require requirements.txt, <br>and the requirements.txt Generator makes this easy to do.
+        </p>
+    </div>
+</div>
+
+<div class="flex flex justify-between max-w-2xl px-auto mx-auto">
+    <div class="" style="width: 100px;">
+        <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+    </div>
+    <div class="" style="width: 100px;">
+        <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" />
+    </div>
+    <div class="" style="width: 100px;">
+        <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" />
+    </div>
+    <div class="" style="width: 100px;">
+        <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" />
+    </div>
+</div>
+
+<div class="h-56"></div>
