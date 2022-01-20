@@ -48,7 +48,6 @@ export default {
 					require('autoprefixer'),
 					],
 				},
-				image()
 			}),
 			compilerOptions: {
 				// enable run-time checks when not in production
