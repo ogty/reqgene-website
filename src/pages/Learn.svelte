@@ -2,7 +2,7 @@
     import { Link } from "svelte-routing";
 </script>
 
-<h1 class="text-6xl text-center my-28 font-bold text-slate-900">What's requirements.txt?</h1>
+<h1 class="text-8xl text-center my-28 font-bold text-slate-900">What's requirements.txt?</h1>
 <div class="text-center text-2xl px-auto mx-auto max-w-6xl">
     <p class="my-3">
         <span class="font-bold">requirements.txt</span> is a text file used in the Python programming language to share a project with other users, 
