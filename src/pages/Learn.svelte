@@ -1,5 +1,4 @@
 <script>
-    import Image from "svelte-image";
     import { Link } from "svelte-routing";
 </script>
 
@@ -10,7 +9,31 @@
         or to restore the environment. In this file, you need to specify the external packages required by your project.
     </p>
 
-    Image
+    <div class="my-16 text-left bg-slate-900 py-5 px-5 max-w-xl px-auto mx-auto">
+        <pre>
+            <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
+<span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">absl-py</span><span class="text-rose-600">==</span><span class="text-sky-500">0.14.1</span>
+<span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">Adafruit-BluefruitLE</span><span class="text-rose-600">==</span><span class="text-sky-500">0.9.10</span>
+<span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">aiohttp</span><span class="text-rose-600">==</span><span class="text-sky-500">3.7.4.post0</span>
+<span class="text-white">&nbsp;4&nbsp;</span><span class="text-violet-500">altair</span><span class="text-rose-600">==</span><span class="text-sky-500">4.1.0</span>
+<span class="text-white">&nbsp;5&nbsp;</span><span class="text-violet-500">altgraph</span><span class="text-rose-600">==</span><span class="text-sky-500">0.17.2</span>
+<span class="text-white">&nbsp;6&nbsp;</span><span class="text-violet-500">anyio</span><span class="text-rose-600">==</span><span class="text-sky-500">3.3.4</span>
+<span class="text-white">&nbsp;7&nbsp;</span><span class="text-violet-500">appdirs</span><span class="text-rose-600">==</span><span class="text-sky-500">1.4.4</span>
+<span class="text-white">&nbsp;8&nbsp;</span><span class="text-violet-500">argon2-cffi</span><span class="text-rose-600">==</span><span class="text-sky-500">20.1.0</span>
+<span class="text-white">&nbsp;9&nbsp;</span><span class="text-violet-500">asgiref</span><span class="text-rose-600">==</span><span class="text-sky-500">3.4.1</span>
+<span class="text-white">10&nbsp;</span><span class="text-violet-500">aspose-words</span><span class="text-rose-600">==</span><span class="text-sky-500">21.11.0</span>
+<span class="text-white">11&nbsp;</span><span class="text-violet-500">astor</span><span class="text-rose-600">==</span><span class="text-sky-500">0.8.1</span>
+<span class="text-white">12&nbsp;</span><span class="text-violet-500">astunparse</span><span class="text-rose-600">==</span><span class="text-sky-500">1.6.3</span>
+<span class="text-white">13&nbsp;</span><span class="text-violet-500">async-generator</span><span class="text-rose-600">==</span><span class="text-sky-500">1.10</span>
+<span class="text-white">14&nbsp;</span><span class="text-violet-500">async-timeout</span><span class="text-rose-600">==</span><span class="text-sky-500">3.0.1</span>
+<span class="text-white">15&nbsp;</span><span class="text-violet-500">attrs</span><span class="text-rose-600">==</span><span class="text-sky-500">20.3.0</span>
+<span class="text-white">16&nbsp;</span><span class="text-violet-500">autopep8</span><span class="text-rose-600">==</span><span class="text-sky-500">1.5.7</span>
+<span class="text-white">17&nbsp;</span><span class="text-violet-500">azure-core</span><span class="text-rose-600">==</span><span class="text-sky-500">1.19.0</span>
+<span class="text-white">18&nbsp;</span><span class="text-violet-500">azure-functions</span><span class="text-rose-600">==</span><span class="text-sky-500">1.7.2</span>
+<span class="text-white">19&nbsp;</span><span class="text-violet-500">azure-storage-blob</span><span class="text-rose-600">==</span><span class="text-sky-500">12.9.0</span>
+            </code>
+        </pre>
+    </div>
     
     <p class="my-3">
         Record the package list in <span class="font-bold">requirements.txt</span> and run the following command to install the package.
@@ -107,6 +130,21 @@
         instead of <span class="bg-slate-300 rounded-lg px-2 font-medium">==</span>.
         To install a package using <span class="font-bold">requirements.txt</span> in Julia
     </p>
+
+    <div class="my-16 text-left bg-slate-900 py-5 px-5 max-w-xl px-auto mx-auto">
+        <pre>
+            <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
+<span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">CSV</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.8.5</span>
+<span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">DataFrames</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.22.7</span>
+<span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">Distributions</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.24.18.post0</span>
+<span class="text-white">&nbsp;4&nbsp;</span><span class="text-violet-500">Flux</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.12.8</span>
+<span class="text-white">&nbsp;5&nbsp;</span><span class="text-violet-500">Genie</span><span class="text-rose-600">@</span><span class="text-sky-500">v3.0.0</span>
+<span class="text-white">&nbsp;6&nbsp;</span><span class="text-violet-500">IJulia</span><span class="text-rose-600">@</span><span class="text-sky-500">v1.23.2</span>
+<span class="text-white">&nbsp;7&nbsp;</span><span class="text-violet-500">Lathe</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.1.6</span>
+<span class="text-white">&nbsp;8&nbsp;</span><span class="text-violet-500">Plots</span><span class="text-rose-600">@</span><span class="text-sky-500">v1.23.6</span>
+            </code>
+        </pre>
+    </div>
 
     <div class="my-16">
         <pre class="my-3">
