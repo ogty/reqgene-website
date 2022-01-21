@@ -1,5 +1,6 @@
 <script>
     import Image from "svelte-image";
+    import { Link } from "svelte-routing";
 </script>
 
 <div class="text-center mt-20 mb-6">
@@ -126,15 +127,17 @@
 </div>
 
 <div class="mt-3">
-    <a href="/" class="mx-auto px-auto max-w-fit border border-black rounded p-2 hover:bg-zinc-100 flex">
-        <span class="ml-5 mt-2 mr-2">
-            <i class="fab fa-chrome md:text-3xl"></i>
-        </span>
-        <span class="mr-6">
-            <span class="block text-sm">Launch</span>
-            <span class="font-semibold">In Browser</span>
-        </span>
-    </a>        
+    <Link to="generate">
+        <a href="/" class="mx-auto px-auto max-w-fit border border-black rounded p-2 hover:bg-zinc-100 flex">
+            <span class="ml-5 mt-2 mr-2">
+                <i class="fab fa-chrome md:text-3xl"></i>
+            </span>
+            <span class="mr-6">
+                <span class="block text-sm">Launch</span>
+                <span class="font-semibold">In Browser</span>
+            </span>
+        </a>
+    </Link>
 </div>
 
 <div class="h-56"></div>

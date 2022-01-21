@@ -16,7 +16,7 @@
 						Generate
 					</span>
 				</Link>
-				<Link to="desktop">
+				<Link to="/">
 					<span class="text-slate-900 text-xl ml-4 py-2 px-3 font-bold border-zinc-900 hover:bg-slate-200 hover:rounded-3xl">
 						Desktop
 					</span>
