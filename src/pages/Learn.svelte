@@ -12,6 +12,7 @@
     <div class="my-16 text-left bg-slate-900 py-5 px-5 max-w-xl px-auto mx-auto">
         <pre>
             <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
+                
 <span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">absl-py</span><span class="text-rose-600">==</span><span class="text-sky-500">0.14.1</span>
 <span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">Adafruit-BluefruitLE</span><span class="text-rose-600">==</span><span class="text-sky-500">0.9.10</span>
 <span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">aiohttp</span><span class="text-rose-600">==</span><span class="text-sky-500">3.7.4.post0</span>
@@ -134,6 +135,7 @@
     <div class="my-16 text-left bg-slate-900 py-5 px-5 max-w-xl px-auto mx-auto">
         <pre>
             <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
+
 <span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">CSV</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.8.5</span>
 <span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">DataFrames</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.22.7</span>
 <span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">Distributions</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.24.18</span>
