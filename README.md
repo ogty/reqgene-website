@@ -1,4 +1,4 @@
-# reqGene Web Site
+# reqGene website
 
- - [Web Site](https://reqgene.vercel.app/)
+ - [website](https://reqgene.vercel.app/)
  - [requirements.txt Generator](https://github.com/ogty/requirements.txt-generator)
