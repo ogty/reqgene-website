@@ -4,8 +4,8 @@
     import { fly } from 'svelte/transition';
     
     let isPositionLanguage = false;
-    window.addEventListener('DOMContentLoaded', function(){
-        window.addEventListener('scroll', function(){
+    window.addEventListener('DOMContentLoaded', function() {
+        window.addEventListener('scroll', function() {
             if (window.scrollY >= 900) {
                 isPositionLanguage = true
             } else {
