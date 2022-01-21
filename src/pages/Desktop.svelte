@@ -1,6 +1,18 @@
 <script>
     import Image from "svelte-image";
     import { Link } from "svelte-routing";
+    import { fly } from 'svelte/transition';
+    
+    let isPositionLanguage = false;
+    window.addEventListener('DOMContentLoaded', function(){
+        window.addEventListener('scroll', function(){
+            if (window.scrollY >= 900) {
+                isPositionLanguage = true
+            } else {
+                isPositionLanguage = false
+            }
+        });
+    });
 </script>
 
 <div class="text-center mt-20 mb-8">
@@ -64,18 +76,20 @@
 </div>
 
 <div class="flex justify-between max-w-7xl px-auto mx-auto mt-14">
-    <div class="mr-28" style="width: 170px;">
+    {#if isPositionLanguage}
+    <div class="mr-28" style="width: 170px;" transition:fly="{{delay: 500, duration: 800, x: -500}}">
         <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
     </div>
-    <div class="mr-28" style="width: 170px;">
+    <div class="mr-28" style="width: 170px;" transition:fly="{{delay: 500, duration: 800, y: 500}}">
         <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" />
     </div>
-    <div class="mr-28" style="width: 170px;">
+    <div class="mr-28" style="width: 170px;" transition:fly="{{delay: 500, duration: 800, y: -500}}">
         <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" />
     </div>
-    <div class="" style="width: 170px;">
+    <div class="" style="width: 170px;" transition:fly="{{delay: 500, duration: 800, x: 500}}">
         <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" />
     </div>
+    {/if}
 </div>
 
 <div class="px-auto mx-auto flex mt-80 border-2 rounded-3xl mix-w-fit text-slate-900 mx-40">
