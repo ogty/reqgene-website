@@ -52,3 +52,7 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+
+::selection {
+	background-color: rgba(211, 211, 211);
+}
