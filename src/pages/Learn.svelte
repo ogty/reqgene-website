@@ -106,7 +106,7 @@
     <div class="my-16">
         <pre class="my-3">
             <code>
-                <span class="text-red-500">using</span> Pkg; Pkg.<span class="text-blue-500">status</span>()
+                > <span class="text-red-500">{#await _sleep(200)}&nbsp;{:then}u{/await}{#await _sleep(400)}&nbsp;{:then}s{/await}{#await _sleep(600)}&nbsp;{:then}i{/await}{#await _sleep(800)}&nbsp;{:then}n{/await}{#await _sleep(1000)}&nbsp;{:then}g{/await}</span>{#await _sleep(1200)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(1400)}&nbsp;{:then}P{/await}{#await _sleep(1600)}&nbsp;{:then}k{/await}{#await _sleep(1800)}&nbsp;{:then}g{/await}{#await _sleep(2000)}&nbsp;{:then};{/await}{#await _sleep(2200)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(2400)}&nbsp;{:then}P{/await}{#await _sleep(2600)}&nbsp;{:then}k{/await}{#await _sleep(2800)}&nbsp;{:then}g{/await}{#await _sleep(3000)}&nbsp;{:then}.{/await}<span class="text-blue-500">{#await _sleep(3200)}&nbsp;{:then}s{/await}{#await _sleep(3400)}&nbsp;{:then}t{/await}{#await _sleep(3600)}&nbsp;{:then}a{/await}{#await _sleep(3800)}&nbsp;{:then}t{/await}{#await _sleep(4000)}&nbsp;{:then}u{/await}{#await _sleep(4200)}&nbsp;{:then}s{/await}</span>{#await _sleep(4400)}&nbsp;{:then}({/await}{#await _sleep(4600)}&nbsp;{:then}){/await}
             </code>
         </pre>
         <span>
