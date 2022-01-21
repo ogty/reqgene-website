@@ -130,7 +130,7 @@
 
 <div class="flex items-center justify-center text-black">
     <div class="flex mx-1">
-        <a href="/" class="border border-black rounded p-2 hover:bg-zinc-100 flex">
+        <a href="https://github.com/ogty/requirements.txt-generator/releases/download/v1.0.0/requirementstxt_generator_for_windows.zip" class="border border-black rounded p-2 hover:bg-zinc-100 flex">
             <span class="ml-3 mt-2 mr-2">
                 <i class="fab fa-windows md:text-3xl"></i>
             </span>
@@ -141,7 +141,7 @@
         </a>
     </div>
     <div class="flex mx-1">
-        <a href="/" class="border border-black rounded p-2 hover:bg-zinc-100 flex min-w-300">
+        <a href="https://github.com/ogty/requirements.txt-generator/releases/download/v1.0.0/requirementstxt_generator_for_mac.zip" class="border border-black rounded p-2 hover:bg-zinc-100 flex min-w-300">
             <span class="ml-5 mt-2 mr-2">
                 <i class="fab fa-apple md:text-3xl"></i>
             </span>
@@ -152,7 +152,7 @@
         </a>    
     </div>
     <div class="flex mx-1">
-        <a href="/" class="border border-black rounded p-2 hover:bg-zinc-100 flex">
+        <a href="https://github.com/ogty/requirements.txt-generator/" class="border border-black rounded p-2 hover:bg-zinc-100 flex">
             <span class="ml-5 mt-2 mr-2">
                 <i class="fab fa-linux md:text-3xl"></i>
             </span>
