@@ -136,7 +136,7 @@
             <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
 <span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">CSV</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.8.5</span>
 <span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">DataFrames</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.22.7</span>
-<span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">Distributions</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.24.18.post0</span>
+<span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">Distributions</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.24.18</span>
 <span class="text-white">&nbsp;4&nbsp;</span><span class="text-violet-500">Flux</span><span class="text-rose-600">@</span><span class="text-sky-500">v0.12.8</span>
 <span class="text-white">&nbsp;5&nbsp;</span><span class="text-violet-500">Genie</span><span class="text-rose-600">@</span><span class="text-sky-500">v3.0.0</span>
 <span class="text-white">&nbsp;6&nbsp;</span><span class="text-violet-500">IJulia</span><span class="text-rose-600">@</span><span class="text-sky-500">v1.23.2</span>
