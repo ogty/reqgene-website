@@ -3,6 +3,7 @@
 	import Desktop from "./pages/Desktop.svelte";
 	import Features from "./pages/Features.svelte";
 	import Generate from "./pages/Generate.svelte";
+	import Learn from "./pages/Learn.svelte";
 </script>
   
 <Router>
@@ -26,6 +27,11 @@
 						Features
 					</span>
 				</Link>
+				<Link to="learn">
+					<span class="text-slate-900 hover:rounded-full text-xl ml-4 py-2 px-3 font-bold border-zinc-900 hover:bg-slate-200 hover:rounded-3xl">
+						Learn
+					</span>
+				</Link>
 			</div>
 		</div>
 	</header>
@@ -38,6 +44,9 @@
 		</Route>
 		<Route path="generate">
 			<Generate />
+		</Route>
+		<Route path="learn">
+			<Learn />
 		</Route>
     </main>
 	<footer class="h-20 border-t-2 w-full flex flex-row">
