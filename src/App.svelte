@@ -8,24 +8,24 @@
 <Router>
 	<header class="text-gray-100body-font w-full h-100 border-b-2">
 		<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-			<a href="/" class="text-4xl mb-2 font-['ui-sans-serif']">reqGene</a>
+			<a href="/" class="text-3xl mb-2 font-['ui-sans-serif']">reqGene</a>
 			<nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto"></nav>
-			<div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-				<a href="/" class="text-xl ml-4 py-2 px-3 font-bold border-zinc-900 hover:bg-slate-200 hover:rounded-3xl" style="margin-top:5px;">
-					<span class="text-slate-900">
-						<Link to="generate">Generate</Link>
+			<div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0 mb-1">
+				<Link to="generate">
+					<span class="text-slate-900 text-xl ml-4 py-2 px-3 font-bold border-zinc-900 hover:bg-slate-200 hover:rounded-3xl">
+						Generate
 					</span>
-				</a>
-				<a href="/" class="text-xl ml-4 py-2 px-3 font-bold border-zinc-900 hover:bg-slate-200 hover:rounded-3xl" style="margin-top:5px;">
-					<span class="text-slate-900">
-						<Link to="desktop">Desktop</Link>
+				</Link>
+				<Link to="desktop">
+					<span class="text-slate-900 text-xl ml-4 py-2 px-3 font-bold border-zinc-900 hover:bg-slate-200 hover:rounded-3xl">
+						Desktop
 					</span>
-				</a>
-				<a href="/" class="text-xl ml-4 py-2 px-3 font-bold border-zinc-900 hover:bg-slate-200 hover:rounded-3xl" style="margin-top:5px;">
-					<span class="text-slate-900 hover:rounded-full ">
-						<Link to="features">Features</Link>
+				</Link>
+				<Link to="features">
+					<span class="text-slate-900 hover:rounded-full text-xl ml-4 py-2 px-3 font-bold border-zinc-900 hover:bg-slate-200 hover:rounded-3xl">
+						Features
 					</span>
-				</a>
+				</Link>
 			</div>
 		</div>
 	</header>
@@ -41,20 +41,20 @@
 		</Route>
     </main>
 	<footer class="h-20 border-t-2 w-full flex flex-row">
-		<div class="basis-1/4 mt-5 ml-5">
+		<div class="basis-1/4 mt-6 ml-5">
 			<span class="px-auto mx-auto text-xl font-bold border-zinc-900">
 				requirements.txt Generator
 			</span>
 		</div>
-		<div class="basis-1/4 mt-6">
+		<div class="basis-1/4 mt-7">
 			<span class="px-auto mx-auto font-bold border-zinc-900">We are TECH.C. 2022</span>
 		</div>
-		<div class="basis-1/4 mt-5">
+		<div class="basis-1/4 mt-6">
 			<a href="https://github.com/ogty/requirements.txt-generator" target="_blank">
 				<i class="fab fa-github md:text-3xl"></i>
 			</a>	
 		</div>
-		<div class="basis-1/4 mt-5 mr-5">
+		<div class="basis-1/4 mt-6 mr-5">
 			<span class="float-right">
 				&copy;2022 ogty
 			</span>
