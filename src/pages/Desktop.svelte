@@ -56,29 +56,29 @@
 
 <div class="text-center mb-6 mt-12">
     <div class="w-xl">
-        <h1 class="text-8xl font-bold text-slate-900">Multiple language<br>support</h1>
+        <h1 class="text-8xl font-bold text-slate-900">Multiple language <br>support</h1>
         <p class="text-2xl mt-4">
             Julia and jupyter notebooks also require requirements.txt, <br>and the requirements.txt Generator makes this easy to do.
         </p>
     </div>
 </div>
 
-<div class="flex flex justify-between max-w-2xl px-auto mx-auto p-20">
-    <div class="" style="width: 100px;">
+<div class="flex justify-between max-w-7xl px-auto mx-auto mt-14">
+    <div class="mr-28" style="width: 200px;">
         <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
     </div>
-    <div class="" style="width: 100px;">
+    <div class="mr-28" style="width: 200px;">
         <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" />
     </div>
-    <div class="" style="width: 100px;">
+    <div class="mr-28" style="width: 200px;">
         <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" />
     </div>
-    <div class="" style="width: 100px;">
+    <div class="" style="width: 200px;">
         <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" />
     </div>
 </div>
 
-<div class="text-center mt-48 mb-6">
+<div class="text-center mt-80 mb-6">
     <div class="w-xl">
         <h1 class="text-8xl font-bold text-slate-900">No need to choose,<br> use everything</h1>
         <p class="text-2xl mt-4">
