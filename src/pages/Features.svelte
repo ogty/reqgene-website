@@ -16,7 +16,7 @@
 
 <div class="h-28"></div>
 
-<div class="grid grid-cols-6 gap-4 px-32">
+<div class="grid grid-cols-6 gap-4 px-56">
     <div class="col-start-1 col-end-4">
         <div class="border-2 border-slate-900 p-10 rounded-2xl">
             <span class="text-5xl font-bold text-slate-900">Execution Environment</span>
