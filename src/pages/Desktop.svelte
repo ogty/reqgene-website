@@ -8,12 +8,9 @@
         window.addEventListener('scroll', function() {
             if (window.scrollY >= 800) {
                 isPositionLanguage = true
-            } else {
-                isPositionLanguage = false
             }
         });
     });
-    const _sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 </script>
 
 <div class="text-center mt-28 mb-8">
