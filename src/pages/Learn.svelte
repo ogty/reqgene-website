@@ -159,7 +159,7 @@
     </div>
     <div class="w-5/6 mb-16 mt-8 text-left bg-slate-900 py-5 px-5 px-auto mx-auto text-white">
         <pre>
-            <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" alt="" class="h-8 w-8 absolute"><span class="text-white ml-8">&nbsp;install.jl</span>
+            <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" alt="" class="h-8 w-8 absolute"><span class="text-white ml-8">&nbsp;status.jl</span>
 
 <span class="text-white">&nbsp;1&nbsp;</span><span class="text-red-500">using</span> Pkg; Pkg.<span class="text-blue-500">status</span>()
             </code>
