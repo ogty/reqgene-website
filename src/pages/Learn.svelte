@@ -53,7 +53,7 @@
             <div class="py-3">
                 <span class="bg-green-500 rounded-full">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             </div>
-            <div class="py-3 text-center w-4/5">
+            <div class="text-xl py-3 text-center w-4/5">
                 <span class="text-gray-400 font-bold">bash</span>
             </div>
         </div>
@@ -111,7 +111,7 @@
             <div class="py-3">
                 <span class="bg-green-500 rounded-full">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             </div>
-            <div class="py-3 text-center w-4/5">
+            <div class="text-xl py-3 text-center w-4/5">
                 <span class="text-gray-400 font-bold">bash</span>
             </div>
         </div>
@@ -142,7 +142,7 @@
                     <span class="bg-green-500 rounded-full">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
                 <div class="py-3 text-center w-4/5">
-                    <span class="text-gray-400 font-bold">bash</span>
+                    <span class="text-xl text-gray-400 font-bold">bash</span>
                 </div>
             </div>
             <div class="w-5/6 mx-auto px-auto bg-gray-700 rounded-b p-16 text-left tracking-wider">
