@@ -19,7 +19,7 @@
     <div class="col-start-1 col-end-4">
         <div class="border-2 border-slate-900 p-10 rounded-2xl">
             <span class="text-5xl font-bold text-slate-900">Execution Environment</span>
-            <p class="my-5 text-xl pb-7">
+            <p class="my-5 text-xl pb-7 indent-4">
                 reqGene is compatible with all major operating systems: Windows, Mac, and Linux. It can also be used with all browsers.
             </p>
             <div class="flex gap-16 justify-center">
@@ -41,7 +41,7 @@
     <div class="col-start-4 col-end-7">
         <div class="border-2 border-slate-900 p-10 rounded-2xl">
             <span class="text-5xl font-bold text-slate-900">Supported languages</span>
-            <p class="my-5 text-xl">
+            <p class="my-5 text-xl indent-4">
                 reqGene supports three languages: Python, Julia, and Go. For Python and Julia, it also supports Jupyter notebook.
                 Just click the button to create requirements.txt immediately.
             </p>
@@ -65,9 +65,11 @@
     <div class="col-start-1 col-end-3 mt-16">
         <div class="p-10 border-r-8 border-double border-b-8">
             <h1 class="font-bold text-4xl text-slate-900">Add Version</h1>
-            <p class="my-5 text-xl">
+            <p class="my-5 text-xl indent-4">
                 By checking the version checkbox, 
-                you can get the version information from the packages installed in your environment and append it to them. <br>
+                you can get the version information from the packages installed in your environment and append it to them.
+            </p>
+            <p class="indent-4 text-xl">
                 Also, if you have checked the version check box, but the version is not displayed, 
                 you will know in advance that the package will most likely not install correctly when you install it with requirements.txt.
             </p>
@@ -160,7 +162,7 @@
     <div class="col-start-5 col-end-7">
         <div class="my-4 p-10 border-l-8 border-double border-t-8 border-b-8">
             <h1 class="font-bold text-4xl text-slate-900">Select Packages</h1>
-            <p class="my-5 text-xl">
+            <p class="my-5 text-xl indent-4">
                 You will need this if you are creating the original module. 
                 This may also help you if you have different names and calls for external packages.
             </p>
@@ -170,7 +172,7 @@
     <div class="col-start-1 col-end-3">
         <div class="my-16 p-10 border-r-8 border-double border-t-8">
             <h1 class="font-bold text-4xl text-slate-900">Detail View</h1>
-            <p class="my-5 text-xl">
+            <p class="my-5 text-xl indent-4">
                 Displays the percentage of program files contained in any number of selected folders.
                 This feature may be useful when creating a requirements.txt file for a forgotten project.
             </p>
