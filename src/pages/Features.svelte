@@ -20,14 +20,22 @@
     <div class="col-start-1 col-end-4">
         <div class="border-2 border-slate-900 p-10 rounded-2xl">
             <span class="text-5xl font-bold text-slate-900">Execution Environment</span>
-            <p class="my-5 text-xl pb-10">
+            <p class="my-5 text-xl pb-7">
                 reqGene is compatible with all major operating systems: Windows, Mac, and Linux. It can also be used with all browsers.
             </p>
-            <div class="flex justify-center">
-                <i class="fab fa-windows md:text-8xl"></i>
-                <i class="fab fa-apple md:text-8xl ml-16"></i>
-                <i class="fab fa-linux md:text-8xl mx-16"></i>
-                <i class="fab fa-chrome md:text-8xl"></i>
+            <div class="flex gap-16 justify-center">
+                <div style="width: 103px;">
+                    <Image src="images/windows-icon-png-5814.png"/>
+                </div>
+                <div style="width: 103px;">
+                    <Image src="images/mac-icon-3309.png"/>
+                </div>
+                <div style="width: 103px;">
+                    <Image src="images/linux-icon-28163.png"/>
+                </div>
+                <div style="width: 103px;">
+                    <Image src="images/google-chrome-icon-3124.png"/>
+                </div>
             </div>
         </div>
     </div>
