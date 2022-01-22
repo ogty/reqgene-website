@@ -52,7 +52,7 @@
 	<footer class="h-20 border-t-2 w-full flex flex-row">
 		<div class="basis-1/4 mt-6 ml-5">
 			<span class="px-auto mx-auto text-xl font-bold border-zinc-900">
-				requirements.txt Generator
+				reqGene
 			</span>
 		</div>
 		<div class="basis-1/4 mt-7">
@@ -64,7 +64,7 @@
 			</a>	
 		</div>
 		<div class="basis-1/4 mt-6 mr-5">
-			<span class="float-right">
+			<span class="float-right font-bold">
 				&copy;2022 ogty
 			</span>
 		</div>
