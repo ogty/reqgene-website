@@ -1,5 +1,173 @@
-<div class="text-center">
-    <div class="mt-80">
-        <h1 class="text-9xl font-bold text-slate-900">Coming Soon</h1>
+<script>
+    import Image from "svelte-image";
+    import { Link } from "svelte-routing";
+    import { fly } from 'svelte/transition';
+</script>
+
+<div class="px-auto mx-auto text-center mb-28 mt-28">
+    <h1 class="text-slate-900 text-7xl font-bold">I'm sloppy and I need this.</h1>
+</div>
+
+<div class="px-auto mx-auto text-center">
+    <Link to="generate">
+        <span class="text-white text-2xl font-bold bg-slate-900 px-10 py-5 rounded-full">Generate requirements.txt</span>
+    </Link>
+</div>
+
+<div class="h-28"></div>
+
+<div class="grid grid-cols-6 gap-4 px-32">
+    <div class="col-start-1 col-end-4">
+        <div class="border-2 border-slate-900 p-10 rounded-2xl">
+            <span class="text-5xl font-bold text-slate-900">Operating System</span>
+            <p class="my-5">
+                reqGene is compatible with Windows, MacOS, and Linux, and can be used in all browsers.
+            </p>
+            <i class="fab fa-windows md:text-5xl"></i>
+            <i class="fab fa-apple md:text-5xl"></i>
+            <i class="fab fa-linux md:text-5xl"></i>
+        </div>
+    </div>
+    <div class="col-start-4 col-end-7">
+        <div class="border-2 border-slate-900 p-10 rounded-2xl">
+            <span class="text-5xl font-bold text-slate-900">Multiple Language</span>
+            <p class="my-5">
+                Python, Julia, Go, Jupyter notebook ....
+            </p>
+            <div class="flex gap-16">
+                <div class="" style="width: 100px;">
+                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+                </div>
+                <div class="" style="width: 100px;">
+                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" />
+                </div>
+                <div class="" style="width: 100px;">
+                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" />
+                </div>
+                <div class="" style="width: 100px;">
+                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-start-1 col-end-3 mt-16">
+        <div class="p-10 border-r-8 border-double border-b-8">
+            <h1 class="font-bold text-4xl text-slate-900">Add Version</h1>
+            <p class="my-5 text-xl">
+                By checking the version checkbox, 
+                you can get the version information from the packages installed in your environment and append it to them. <br>
+                Also, if you have checked the version check box, but the version is not displayed, 
+                you will know in advance that the package will most likely not install correctly when you install it with requirements.txt.
+            </p>
+        </div>
+    </div>
+    <div class="col-end-7 col-span-4 p-10 mt-16">
+        <div class="text-left bg-slate-900 py-5 px-5 max-w-xl px-auto mx-auto text-xl">
+            <pre>
+                <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
+
+<span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">CSV</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v0.8.5</span></span>
+<span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">DataFrames</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v0.22.7</span></span>
+<span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">Distributions</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v0.24.18</span></span>
+<span class="text-white">&nbsp;4&nbsp;</span><span class="text-violet-500">Flux</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v0.12.8</span></span>
+<span class="text-white">&nbsp;5&nbsp;</span><span class="text-violet-500">Genie</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v3.0.0</span></span>
+<span class="text-white">&nbsp;6&nbsp;</span><span class="text-violet-500">IJulia</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v1.23.2</span></span>
+<span class="text-white">&nbsp;7&nbsp;</span><span class="text-violet-500">Lathe</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v0.1.6</span></span>
+<span class="text-white">&nbsp;8&nbsp;</span><span class="text-violet-500">Plots</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v1.23.6</span></span>
+                </code>
+            </pre>
+        </div>
+    </div>
+
+    <div class="col-start-2 col-end-6 border-t-2 border-dashed border-slate-900 mt-10"></div>
+    <div class="col-start-2 col-span-4 px-auto mx-auto p-10">
+        <div class="items-center flex-col">
+            <ul class="">
+                <li>
+                    <i class="fas fa-search md:text-5xl text-slate-900"></i>
+                    <span class="text-5xl font-bold text-slate-900 ml-12">Search Folders</span>
+                </li>
+                <li>
+                    <i class="fas fa-terminal md:text-5xl text-slate-900 my-12"></i>
+                    <span class="text-5xl font-bold text-slate-900 ml-10">Execute Command</span>
+                </li>
+                <li>
+                    <i class="fas fa-folders md:text-5xl text-slate-900"></i>
+                    <span class="text-5xl font-bold text-slate-900 ml-10">Multiple Folder</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-start-2 col-end-6 border-t-2 border-dashed border-slate-900 mb-10"></div>
+
+    <div class="col-start-1 col-end-5">
+        <div class="flex my-4 p-10">
+            <div class="block">
+                <div class="mt-2">
+                    <div class="my-2">
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" class="form-checkbox h-6 w-6" checked>
+                            <span class="ml-2 text-2xl font-bold">matplotlib==3.3.4</span>
+                        </label>
+                    </div>
+                    <div class="my-2">
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" class="form-checkbox h-6 w-6" checked>
+                        <span class="ml-2 text-2xl font-bold">numpy==1.19.5</span>
+                    </label>
+                    </div>
+                    <div class="my-2">
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" class="form-checkbox h-6 w-6" checked>
+                            <span class="ml-2 text-2xl font-bold">pandas==1.2.3</span>
+                        </label>
+                    </div>
+                    <div class="my-2">
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" class="form-checkbox h-6 w-6">
+                            <span class="ml-2 text-2xl font-bold">settings</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="px-auto mx-auto my-auto py-auto text-slate-900">
+                <i class="fal fa-arrow-alt-right md:text-5xl"></i>
+            </div>
+            <div class="text-left bg-slate-900 py-5 px-5 max-w-xl px-auto mx-auto text-2xl ml-10">
+                <pre>
+                    <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
+    
+<span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">matplotlib</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">==</span><span class="text-sky-500">3.3.4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">numpy</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">==</span><span class="text-sky-500">1.19.5</span></span>
+<span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">pandas</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">==</span><span class="text-sky-500">1.2.3</span></span>
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+    <div class="col-start-5 col-end-7">
+        <div class="my-4 p-10 border-l-8 border-double border-t-8 border-b-8">
+            <h1 class="font-bold text-4xl text-slate-900">Select Packages</h1>
+            <p class="my-5 text-xl">
+                You will need this if you are creating the original module. 
+                This may also help you if you have different names and calls for external packages.
+            </p>
+        </div>
+    </div>
+
+    <div class="col-start-1 col-end-3">
+        <div class="my-16 p-10 border-r-8 border-double border-t-8">
+            <h1 class="font-bold text-4xl text-slate-900">Detail View</h1>
+            <p class="my-5 text-xl">
+                Displays the percentage of program files contained in any number of selected folders.
+                This feature may be useful when creating a requirements.txt file for a forgotten project.
+            </p>
+        </div>
+    </div>
+    <div class="col-end-7 col-span-4">
+
     </div>
 </div>
+
+<div class="h-56"></div>
