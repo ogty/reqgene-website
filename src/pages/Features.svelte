@@ -4,8 +4,8 @@
     import { fly } from 'svelte/transition';
 </script>
 
-<div class="px-auto mx-auto text-center mb-28 mt-28">
-    <h1 class="text-slate-900 text-7xl font-bold">I'm sloppy and I need this.</h1>
+<div class="px-auto mx-auto text-center my-28">
+    <h1 class="text-slate-900 text-8xl font-bold">I'm sloppy and I need this.</h1>
 </div>
 
 <div class="px-auto mx-auto text-center">
@@ -19,32 +19,36 @@
 <div class="grid grid-cols-6 gap-4 px-32">
     <div class="col-start-1 col-end-4">
         <div class="border-2 border-slate-900 p-10 rounded-2xl">
-            <span class="text-5xl font-bold text-slate-900">Operating System</span>
-            <p class="my-5">
-                reqGene is compatible with Windows, MacOS, and Linux, and can be used in all browsers.
+            <span class="text-5xl font-bold text-slate-900">Execution Environment</span>
+            <p class="my-5 text-xl pb-10">
+                reqGene is compatible with all major operating systems: Windows, Mac, and Linux. It can also be used with all browsers.
             </p>
-            <i class="fab fa-windows md:text-5xl"></i>
-            <i class="fab fa-apple md:text-5xl"></i>
-            <i class="fab fa-linux md:text-5xl"></i>
+            <div class="flex justify-center">
+                <i class="fab fa-windows md:text-8xl"></i>
+                <i class="fab fa-apple md:text-8xl ml-16"></i>
+                <i class="fab fa-linux md:text-8xl mx-16"></i>
+                <i class="fab fa-chrome md:text-8xl"></i>
+            </div>
         </div>
     </div>
     <div class="col-start-4 col-end-7">
         <div class="border-2 border-slate-900 p-10 rounded-2xl">
-            <span class="text-5xl font-bold text-slate-900">Multiple Language</span>
-            <p class="my-5">
-                Python, Julia, Go, Jupyter notebook ....
+            <span class="text-5xl font-bold text-slate-900">Supported languages</span>
+            <p class="my-5 text-xl">
+                reqGene supports three languages: Python, Julia, and Go. For Python and Julia, it also supports Jupyter notebook.
+                Just click the button to create requirements.txt immediately.
             </p>
-            <div class="flex gap-16">
-                <div class="" style="width: 100px;">
+            <div class="flex gap-16 justify-center">
+                <div class="" style="width: 103px;">
                     <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
                 </div>
-                <div class="" style="width: 100px;">
+                <div class="" style="width: 103px;">
                     <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" />
                 </div>
-                <div class="" style="width: 100px;">
+                <div class="" style="width: 103px;">
                     <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" />
                 </div>
-                <div class="" style="width: 100px;">
+                <div class="" style="width: 103px;">
                     <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" />
                 </div>
             </div>
