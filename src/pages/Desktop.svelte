@@ -13,6 +13,7 @@
             }
         });
     });
+    const _sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 </script>
 
 <div class="text-center mt-28 mb-8">
@@ -60,7 +61,7 @@
     </div>
 </div>
 
-<div class="mt-16 mb-28 mx-auto px-auto shadow-2xl" style="width: 75%;">
+<div class="mt-16 mb-48 mx-auto px-auto shadow-2xl" style="width: 75%;">
     <img src="images/demo.gif" alt="">
 </div>
 
@@ -89,6 +90,30 @@
     </div>
     {/if}
 </div>
+
+
+<h1 class="text-center text-8xl font-bold text-slate-900 mt-48">All the features you need</h1>
+
+<div class="mx-auto px-auto mt-16">
+    <div class="flex justify-center text-slate-900 font-bold text-3xl gap-48">
+        <div>
+            <ul>
+                <li><i class="fas fa-check mr-5 text-red-500"></i>Select Packages</li>
+                <li class="my-8"><i class="fas fa-check mr-5 text-red-500"></i>Search Folders</li>
+                <li><i class="fas fa-check mr-5 text-red-500"></i>Detail View</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><i class="fas fa-check mr-5 text-red-500"></i>Add Version</li>
+                <li class="my-8"><i class="fas fa-check mr-5 text-red-500"></i>Select Multiple Folders</li>
+                <li><i class="fas fa-check mr-5 text-red-500"></i>Execute Command</li>
+            </ul>
+        </div>
+    </div>
+    
+</div>
+
 
 <div class="gird-cols-2 px-auto mx-auto flex mt-48 border-2 rounded-3xl mix-w-fit text-slate-900 mx-48">
     <div class="border-r-2 pb-8 px-20 col-start-1 col-end-2 block">

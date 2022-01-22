@@ -1,7 +1,6 @@
 <script>
     import Image from "svelte-image";
     import { Link } from "svelte-routing";
-    import { fly } from 'svelte/transition';
 </script>
 
 <div class="px-auto mx-auto text-center my-28">
@@ -79,14 +78,14 @@
             <pre>
                 <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
 
-<span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">CSV</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v0.8.5</span></span>
-<span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">DataFrames</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v0.22.7</span></span>
-<span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">Distributions</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v0.24.18</span></span>
-<span class="text-white">&nbsp;4&nbsp;</span><span class="text-violet-500">Flux</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v0.12.8</span></span>
-<span class="text-white">&nbsp;5&nbsp;</span><span class="text-violet-500">Genie</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v3.0.0</span></span>
-<span class="text-white">&nbsp;6&nbsp;</span><span class="text-violet-500">IJulia</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v1.23.2</span></span>
-<span class="text-white">&nbsp;7&nbsp;</span><span class="text-violet-500">Lathe</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v0.1.6</span></span>
-<span class="text-white">&nbsp;8&nbsp;</span><span class="text-violet-500">Plots</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">@</span><span class="text-sky-500">v1.23.6</span></span>
+<span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">CSV</span><span class="animate-pulse"><span class="text-rose-600">@</span><span class="text-sky-500">v0.8.5</span></span>
+<span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">DataFrames</span><span class="animate-pulse"><span class="text-rose-600">@</span><span class="text-sky-500">v0.22.7</span></span>
+<span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">Distributions</span><span class="animate-pulse"><span class="text-rose-600">@</span><span class="text-sky-500">v0.24.18</span></span>
+<span class="text-white">&nbsp;4&nbsp;</span><span class="text-violet-500">Flux</span><span class="animate-pulse"><span class="text-rose-600">@</span><span class="text-sky-500">v0.12.8</span></span>
+<span class="text-white">&nbsp;5&nbsp;</span><span class="text-violet-500">Genie</span><span class="animate-pulse"><span class="text-rose-600">@</span><span class="text-sky-500">v3.0.0</span></span>
+<span class="text-white">&nbsp;6&nbsp;</span><span class="text-violet-500">IJulia</span><span class="animate-pulse"><span class="text-rose-600">@</span><span class="text-sky-500">v1.23.2</span></span>
+<span class="text-white">&nbsp;7&nbsp;</span><span class="text-violet-500">Lathe</span><span class="animate-pulse"><span class="text-rose-600">@</span><span class="text-sky-500">v0.1.6</span></span>
+<span class="text-white">&nbsp;8&nbsp;</span><span class="text-violet-500">Plots</span><span class="animate-pulse"><span class="text-rose-600">@</span><span class="text-sky-500">v1.23.6</span></span>
                 </code>
             </pre>
         </div>
@@ -144,15 +143,15 @@
                 </div>
             </div>
             <div class="px-auto mx-auto my-auto py-auto text-slate-900">
-                <i class="fal fa-arrow-alt-right md:text-5xl"></i>
+                <i class="animate-bounce fal fa-arrow-alt-right md:text-5xl"></i>
             </div>
             <div class="text-left bg-slate-900 py-5 px-5 max-w-xl px-auto mx-auto text-2xl ml-10">
                 <pre>
                     <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
     
-<span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">matplotlib</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">==</span><span class="text-sky-500">3.3.4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">numpy</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">==</span><span class="text-sky-500">1.19.5</span></span>
-<span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">pandas</span><span class="" transition:fly="{{delay: 500, duration: 800}}"><span class="text-rose-600">==</span><span class="text-sky-500">1.2.3</span></span>
+<span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">matplotlib</span><span class="animate-pulse"><span class="text-rose-600">==</span><span class="text-sky-500">3.3.4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">numpy</span><span class="animate-pulse"><span class="text-rose-600">==</span><span class="text-sky-500">1.19.5</span></span>
+<span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">pandas</span><span class="animate-pulse"><span class="text-rose-600">==</span><span class="text-sky-500">1.2.3</span></span>
                     </code>
                 </pre>
             </div>
