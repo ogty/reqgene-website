@@ -88,7 +88,6 @@
     {/if}
 </div>
 
-
 <h1 class="text-center text-8xl font-bold text-slate-900 mt-48">All the features you need</h1>
 
 <div class="mx-auto px-auto mt-16">
@@ -108,9 +107,7 @@
             </ul>
         </div>
     </div>
-    
 </div>
-
 
 <div class="gird-cols-2 px-auto mx-auto flex mt-48 border-2 rounded-3xl mix-w-fit text-slate-900 mx-48">
     <div class="border-r-2 pb-8 px-20 col-start-1 col-end-2 block">
