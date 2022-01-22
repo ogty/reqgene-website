@@ -7,7 +7,7 @@
     <h1 class="text-slate-900 text-8xl font-bold">I'm sloppy and I need this.</h1>
 </div>
 
-<div class="px-auto mx-auto text-center">
+<div class="px-auto mx-auto text-center hover:opacity-90">
     <Link to="generate">
         <span class="text-white text-2xl font-bold bg-slate-900 px-10 py-5 rounded-full">Generate requirements.txt</span>
     </Link>
@@ -118,25 +118,25 @@
                 <div class="mt-2">
                     <div class="my-2">
                         <label class="inline-flex items-center">
-                            <input type="checkbox" class="form-checkbox h-6 w-6" checked>
+                            <input type="checkbox" class="form-checkbox h-6 w-6 hover:cursor-pointer" checked>
                             <span class="ml-2 text-2xl font-bold">matplotlib==3.3.4</span>
                         </label>
                     </div>
                     <div class="my-2">
                     <label class="inline-flex items-center">
-                        <input type="checkbox" class="form-checkbox h-6 w-6" checked>
+                        <input type="checkbox" class="form-checkbox h-6 w-6 hover:cursor-pointer" checked>
                         <span class="ml-2 text-2xl font-bold">numpy==1.19.5</span>
                     </label>
                     </div>
                     <div class="my-2">
                         <label class="inline-flex items-center">
-                            <input type="checkbox" class="form-checkbox h-6 w-6" checked>
+                            <input type="checkbox" class="form-checkbox h-6 w-6 hover:cursor-pointer" checked>
                             <span class="ml-2 text-2xl font-bold">pandas==1.2.3</span>
                         </label>
                     </div>
                     <div class="my-2">
                         <label class="inline-flex items-center">
-                            <input type="checkbox" class="form-checkbox h-6 w-6">
+                            <input type="checkbox" class="form-checkbox h-6 w-6 hover:cursor-pointer">
                             <span class="ml-2 text-2xl font-bold">settings</span>
                         </label>
                     </div>
@@ -176,9 +176,66 @@
             </p>
         </div>
     </div>
-    <div class="col-end-7 col-span-4">
-
+    <div class="col-end-7 col-span-4 block">
+        <div class="px-auto mx-auto pt-16">
+            <div class="w-4/5 px-auto mx-auto">
+                <h6 class="text-left text-xl font-bold ">C:\Users\user\Desktop\project1</h6>
+                <div class="p-1 text-center px-auto mx-auto hover:opacity-75 hover:cursor-pointer" style="background-color: #3572A5;">
+                    <span class="" title="Python" style="width:100%;">
+                        <span class="font-bold text-white">100%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="w-4/5 px-auto mx-auto mt-5">
+                <h6 class="text-left text-xl font-bold ">C:\Users\user\Desktop\project2</h6>
+                <div class="flex">
+                    <div class="w-3/4 p-1 text-center px-auto mx-auto hover:opacity-75 hover:cursor-pointer" style="background-color: #3572A5;">
+                        <span class="" title="Python">
+                            <span class="font-bold text-white">75%</span>
+                        </span>
+                    </div>
+                    <div class="w-1/4 p-1 text-center px-auto mx-auto hover:opacity-75 hover:cursor-pointer" style="background-color: #a270ba;">
+                        <span class="" title="Python">
+                            <span class="font-bold text-white">25%</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-12">
+            <h1 class="text-center">
+                <span class="font-bold text-4xl text-slate-900">Languages</span>
+            </h1>
+            <div class="block">
+                <div class="flex justify-center my-4">
+                    <div class="">
+                        <span class="bg-slate-900 mr-3 rounded-full" style="background-color: #3572A5;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="text-xl font-bold">Python</span>
+                    </div>
+                    <div class="">
+                        <span class="bg-slate-900 mr-3 ml-5 rounded-full" style="background-color: #a270ba;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="text-xl font-bold">Julia</span>
+                    </div>
+                    <div class="">
+                        <span class="bg-slate-900 mr-3 ml-5 rounded-full" style="background-color: #00ADD8;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="text-xl font-bold">Go</span>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="">
+                        <span class="bg-slate-900 mr-3 rounded-full" style="background-color: #DA5B0B;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="text-xl font-bold">Ipynb</span>
+                    </div>
+                    <div class="">
+                        <span class="bg-slate-900 mr-3 ml-5 rounded-full" style="background-color: darkgray;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="text-xl font-bold">Other</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+
+<div class="px-auto mx-auto text-center mt-28 hover:opacity-90">
+    <Link to="generate">
+        <span class="text-white text-2xl font-bold bg-slate-900 px-10 py-5 rounded-full">Generate requirements.txt</span>
+    </Link>
 </div>
 
 <div class="h-56"></div>

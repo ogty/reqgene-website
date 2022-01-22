@@ -189,9 +189,9 @@
     <span>or</span>
 </div>
 
-<div class="mt-3">
+<div class="mt-3 w-44 mx-auto px-auto">
     <Link to="generate">
-        <a href="/" class="mx-auto px-auto max-w-fit border border-black rounded p-2 hover:bg-zinc-100 flex">
+        <a href="/" class="border border-black rounded p-2 hover:bg-zinc-100 flex -mr-2">
             <span class="ml-5 mt-2 mr-2">
                 <i class="fab fa-chrome md:text-3xl"></i>
             </span>
