@@ -149,9 +149,9 @@
                 <pre>
                     <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
     
-<span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">matplotlib</span><span class="animate-pulse"><span class="text-rose-600">==</span><span class="text-sky-500">3.3.4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">numpy</span><span class="animate-pulse"><span class="text-rose-600">==</span><span class="text-sky-500">1.19.5</span></span>
-<span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">pandas</span><span class="animate-pulse"><span class="text-rose-600">==</span><span class="text-sky-500">1.2.3</span></span>
+<span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">matplotlib</span><span><span class="text-rose-600">==</span><span class="text-sky-500">3.3.4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">numpy</span><span><span class="text-rose-600">==</span><span class="text-sky-500">1.19.5</span></span>
+<span class="text-white">&nbsp;3&nbsp;</span><span class="text-violet-500">pandas</span><span><span class="text-rose-600">==</span><span class="text-sky-500">1.2.3</span></span>
                     </code>
                 </pre>
             </div>
