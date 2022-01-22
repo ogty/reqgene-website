@@ -229,26 +229,3 @@
 </div>
 
 <div class="h-56"></div>
-
-<div class="flex w-1/2 mx-auto px-auto bg-gray-700 h-8 rounded-t">
-    <div class="py-3 pl-3">
-        <span class="bg-red-500 rounded-full">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-    </div>
-    <div class="py-3 px-2">
-        <span class="bg-yellow-500 rounded-full">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-    </div>
-    <div class="py-3">
-        <span class="bg-green-500 rounded-full">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-    </div>
-    <div class="py-3 text-center w-4/5">
-        <span class="text-gray-400 font-bold">bash</span>
-    </div>
-</div>
-<div class="w-1/2 mx-auto px-auto bg-gray-700 h-fit rounded-b p-16">
-    <span class="font-bold text-white text-xl">
-        <span class="text-gray-400 mr-3">$</span> pip install -r requirements.txt
-    </span>
-</div>
-
-
-<div class="h-56"></div>
