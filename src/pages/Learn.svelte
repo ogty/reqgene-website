@@ -187,7 +187,7 @@
         </pre>
     </div>
 
-    <div class="max-w-xl mb-16 mt-8 text-left bg-slate-900 py-5 px-5 px-auto mx-auto text-white">
+    <div class="max-w-xl mb-16 mt-8 text-left bg-slate-900 py-5 px-5 px-auto mx-auto text-white overflow-x-auto">
         <pre>
             <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" alt="" class="h-8 w-8 absolute"><span class="text-white ml-8">&nbsp;install.jl</span>
 
