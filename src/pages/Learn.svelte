@@ -73,7 +73,7 @@
     </p>
     <div class="my-16">
         <table class="table-fixed border-collapse border border-slate-500 mx-auto px-auto my-5">
-            <thead>
+            <thead class="bg-gray-100">
                 <tr>
                     <th class="px-16 py-2 border border-slate-600">Method</th>
                     <th class="px-16 py-2 border border-slate-600">Example</th>
@@ -189,7 +189,7 @@
 
     <div class="max-w-xl mb-16 mt-8 text-left bg-slate-900 py-5 px-5 px-auto mx-auto text-white overflow-x-auto">
         <pre>
-            <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" alt="" class="h-8 w-8 absolute"><span class="text-white ml-8">&nbsp;install.jl</span>
+            <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" alt="" class="h-8 w-8 absolute"><span class="text-white ml-8 absolute">&nbsp;install.jl</span>
 
 <span class="text-white">&nbsp;1&nbsp;</span><span class="text-red-500">using</span> Pkg; Pkg.<span class="text-blue-500">add</span>(<span class="text-blue-500">open</span>(f<span class="text-red-500">-&gt;</span>f.<span class="text-blue-500">readlines</span>(f), <span class="text-sky-500">&quot;requirements.txt &quot;</span>))
             </code>
