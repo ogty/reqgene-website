@@ -19,20 +19,22 @@
     <div class="col-start-1 col-end-4">
         <div class="border-2 border-slate-900 p-10 rounded-2xl">
             <span class="text-5xl font-bold text-slate-900">Execution Environment</span>
-            <p class="my-5 text-xl pb-7 indent-4">
-                reqGene is compatible with all major operating systems: Windows, Mac, and Linux. It can also be used with all browsers.
-            </p>
-            <div class="flex gap-16 justify-center">
-                <div style="width: 103px;">
+            <div class="h-24">
+                <p class="my-5 text-xl indent-4">
+                    reqGene is compatible with all major operating systems: Windows, Mac, and Linux. It can also be used with all browsers.
+                </p>
+            </div>
+            <div class="flex gap-16 justify-center h-fit">
+                <div style="width: 30%;">
                     <Image src="images/windows-icon-png-5814.png"/>
                 </div>
-                <div style="width: 103px;">
+                <div style="width: 30%;">
                     <Image src="images/mac-icon-3309.png"/>
                 </div>
-                <div style="width: 103px;">
+                <div style="width: 30%;">
                     <Image src="images/linux-icon-28163.png"/>
                 </div>
-                <div style="width: 103px;">
+                <div style="width: 30%;">
                     <Image src="images/google-chrome-icon-3124.png"/>
                 </div>
             </div>
@@ -41,21 +43,23 @@
     <div class="col-start-4 col-end-7">
         <div class="border-2 border-slate-900 p-10 rounded-2xl">
             <span class="text-5xl font-bold text-slate-900">Supported languages</span>
-            <p class="my-5 text-xl indent-4">
-                reqGene supports three languages: Python, Julia, and Go. For Python and Julia, it also supports Jupyter notebook.
-                Just click the button to create requirements.txt immediately.
-            </p>
-            <div class="flex gap-16 justify-center">
-                <div class="" style="width: 103px;">
+            <div class="h-24">
+                <p class="my-5 text-xl indent-4">
+                    reqGene supports three languages: Python, Julia, and Go. For Python and Julia, it also supports Jupyter notebook.
+                    Just click the button to create requirements.txt immediately.
+                </p>
+            </div>
+            <div class="flex gap-16 justify-center h-fit">
+                <div class="" style="width: 30%;">
                     <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
                 </div>
-                <div class="" style="width: 103px;">
+                <div class="" style="width: 30%;">
                     <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" />
                 </div>
-                <div class="" style="width: 103px;">
+                <div class="" style="width: 30%;">
                     <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" />
                 </div>
-                <div class="" style="width: 103px;">
+                <div class="" style="width: 30%;">
                     <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" />
                 </div>
             </div>
