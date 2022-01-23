@@ -11,7 +11,7 @@
         <span class="font-bold">requirements.txt</span> is a text file used in the Python programming language to share a project with other users, 
         or to restore the environment. In this file, you need to specify the external packages required by your project.
     </p>
-    <div class="w-5/6 my-16 text-left bg-slate-900 py-5 px-5 px-auto mx-auto">
+    <div class="max-w-fit my-16 text-left bg-slate-900 py-5 px-5 px-auto mx-auto">
         <pre>
             <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
 
@@ -43,7 +43,7 @@
     </p>
     
     <div class="my-16">
-        <div class="flex w-5/6 mx-auto px-auto bg-gray-700 h-8 rounded-t text-base">
+        <div class="flex w-2/3 mx-auto px-auto bg-gray-700 h-8 rounded-t text-base">
             <div class="py-3 pl-3">
                 <span class="bg-red-500 rounded-full">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             </div>
@@ -57,7 +57,7 @@
                 <span class="text-gray-400 font-bold">bash</span>
             </div>
         </div>
-        <div class="w-5/6 mx-auto px-auto bg-gray-700 h-fit rounded-b p-16 text-left tracking-wider">
+        <div class="w-2/3 mx-auto px-auto bg-gray-700 h-fit rounded-b p-16 text-left tracking-wider">
             <span class="font-bold text-white text-xl mb-5">
                 <span class="text-gray-400 mr-3">$</span> {#await _sleep(150)}&nbsp;{:then}p{/await}{#await _sleep(300)}&nbsp;{:then}i{/await}{#await _sleep(450)}&nbsp;{:then}p{/await}{#await _sleep(600)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(750)}&nbsp;{:then}i{/await}{#await _sleep(900)}&nbsp;{:then}n{/await}{#await _sleep(1050)}&nbsp;{:then}s{/await}{#await _sleep(1200)}&nbsp;{:then}t{/await}{#await _sleep(1350)}&nbsp;{:then}a{/await}{#await _sleep(1500)}&nbsp;{:then}l{/await}{#await _sleep(1650)}&nbsp;{:then}l{/await}{#await _sleep(1800)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(1950)}&nbsp;{:then}-{/await}{#await _sleep(2100)}&nbsp;{:then}r{/await}{#await _sleep(2250)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(2400)}&nbsp;{:then}r{/await}{#await _sleep(2550)}&nbsp;{:then}e{/await}{#await _sleep(2700)}&nbsp;{:then}q{/await}{#await _sleep(2850)}&nbsp;{:then}u{/await}{#await _sleep(3000)}&nbsp;{:then}i{/await}{#await _sleep(3150)}&nbsp;{:then}r{/await}{#await _sleep(3300)}&nbsp;{:then}e{/await}{#await _sleep(3450)}&nbsp;{:then}m{/await}{#await _sleep(3600)}&nbsp;{:then}e{/await}{#await _sleep(3750)}&nbsp;{:then}n{/await}{#await _sleep(3900)}&nbsp;{:then}t{/await}{#await _sleep(4050)}&nbsp;{:then}s{/await}{#await _sleep(4200)}&nbsp;{:then}.{/await}{#await _sleep(4350)}&nbsp;{:then}t{/await}{#await _sleep(4500)}&nbsp;{:then}x{/await}{#await _sleep(4650)}&nbsp;{:then}t{/await}
             </span>
@@ -101,7 +101,7 @@
     </p>
 
     <div class="my-16">
-        <div class="flex w-5/6 mx-auto px-auto bg-gray-700 h-8 rounded-t text-base">
+        <div class="flex w-2/3 mx-auto px-auto bg-gray-700 h-8 rounded-t text-base">
             <div class="py-3 pl-3">
                 <span class="bg-red-500 rounded-full">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             </div>
@@ -115,7 +115,7 @@
                 <span class="text-gray-400 font-bold">bash</span>
             </div>
         </div>
-        <div class="w-5/6 mx-auto px-auto bg-gray-700 h-fit rounded-b p-16 text-left tracking-wider">
+        <div class="w-2/3 mx-auto px-auto bg-gray-700 h-fit rounded-b p-16 text-left tracking-wider">
             <span class="font-bold text-white text-xl">
                 <span class="text-gray-400 mr-3">$</span> {#await _sleep(200)}&nbsp;{:then}p{/await}{#await _sleep(400)}&nbsp;{:then}i{/await}{#await _sleep(600)}&nbsp;{:then}p{/await}{#await _sleep(800)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(1000)}&nbsp;{:then}f{/await}{#await _sleep(1200)}&nbsp;{:then}r{/await}{#await _sleep(1400)}&nbsp;{:then}e{/await}{#await _sleep(1600)}&nbsp;{:then}e{/await}{#await _sleep(1800)}&nbsp;{:then}z{/await}{#await _sleep(2000)}&nbsp;{:then}e{/await}{#await _sleep(2200)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(2400)}&nbsp;{:then} &gt;{/await}{#await _sleep(2600)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(2800)}&nbsp;{:then}r{/await}{#await _sleep(3000)}&nbsp;{:then}e{/await}{#await _sleep(3200)}&nbsp;{:then}q{/await}{#await _sleep(3400)}&nbsp;{:then}u{/await}{#await _sleep(3600)}&nbsp;{:then}i{/await}{#await _sleep(3800)}&nbsp;{:then}r{/await}{#await _sleep(4000)}&nbsp;{:then}e{/await}{#await _sleep(4200)}&nbsp;{:then}m{/await}{#await _sleep(4400)}&nbsp;{:then}e{/await}{#await _sleep(4600)}&nbsp;{:then}n{/await}{#await _sleep(4800)}&nbsp;{:then}t{/await}{#await _sleep(5000)}&nbsp;{:then}s{/await}{#await _sleep(5200)}&nbsp;{:then}.{/await}{#await _sleep(5400)}&nbsp;{:then}t{/await}{#await _sleep(5600)}&nbsp;{:then}x{/await}{#await _sleep(5800)}&nbsp;{:then}t{/await}
             </span>
@@ -131,7 +131,7 @@
     </p>
     <div class="my-16">
         <div class="my-16">
-            <div class="flex w-5/6 mx-auto px-auto bg-gray-700 h-8 rounded-t text-base">
+            <div class="flex w-2/3 mx-auto px-auto bg-gray-700 h-8 rounded-t text-base">
                 <div class="py-3 pl-3">
                     <span class="bg-red-500 rounded-full">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
@@ -145,7 +145,7 @@
                     <span class="text-xl text-gray-400 font-bold">bash</span>
                 </div>
             </div>
-            <div class="w-5/6 mx-auto px-auto bg-gray-700 rounded-b p-16 text-left tracking-wider">
+            <div class="w-2/3 mx-auto px-auto bg-gray-700 rounded-b p-16 text-left tracking-wider">
                 <span class="font-bold text-white text-xl mb-5">
                     <span class="mb-5"><span class="text-gray-400 mr-3">$</span>{#await _sleep(150)}&nbsp;{:then}j{/await}{#await _sleep(300)}&nbsp;{:then}u{/await}{#await _sleep(450)}&nbsp;{:then}l{/await}{#await _sleep(600)}&nbsp;{:then}i{/await}{#await _sleep(750)}&nbsp;{:then}a{/await}<br></span>
                     <span class="mb-5"><span class="text-green-400">julia &gt;</span> <span class="text-gray-500">{#await _sleep(900)}&nbsp;{:then}#{/await}{#await _sleep(1050)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(1200)}&nbsp;{:then}p{/await}{#await _sleep(1350)}&nbsp;{:then}r{/await}{#await _sleep(1500)}&nbsp;{:then}e{/await}{#await _sleep(1650)}&nbsp;{:then}s{/await}{#await _sleep(1800)}&nbsp;{:then}s{/await}{#await _sleep(1950)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(2100)}&nbsp;{:then}]{/await}</span><br></span>
@@ -157,7 +157,7 @@
             or run the Julia file with the program
         </span>
     </div>
-    <div class="w-5/6 mb-16 mt-8 text-left bg-slate-900 py-5 px-5 px-auto mx-auto text-white">
+    <div class="max-w-fit mb-16 mt-8 text-left bg-slate-900 py-5 px-5 px-auto mx-auto text-white">
         <pre>
             <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" alt="" class="h-8 w-8 absolute"><span class="text-white ml-8">&nbsp;status.jl</span>
 
@@ -171,7 +171,7 @@
         instead of <span class="bg-slate-200 rounded-lg px-2 font-medium">==</span>.
         To install a package using <span class="font-bold">requirements.txt</span> in Julia
     </p>
-    <div class="my-16 text-left bg-slate-900 py-5 px-5 w-5/6 px-auto mx-auto">
+    <div class="my-16 text-left bg-slate-900 py-5 px-5 max-w-fit px-auto mx-auto">
         <pre>
             <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
 
@@ -187,7 +187,7 @@
         </pre>
     </div>
 
-    <div class="w-5/6 mb-16 mt-8 text-left bg-slate-900 py-5 px-5 px-auto mx-auto text-white">
+    <div class="max-w-fit mb-16 mt-8 text-left bg-slate-900 py-5 px-5 px-auto mx-auto text-white">
         <pre>
             <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" alt="" class="h-8 w-8 absolute"><span class="text-white ml-8">&nbsp;install.jl</span>
 
