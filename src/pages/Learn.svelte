@@ -11,7 +11,7 @@
         <span class="font-bold">requirements.txt</span> is a text file used in the Python programming language to share a project with other users, 
         or to restore the environment. In this file, you need to specify the external packages required by your project.
     </p>
-    <div class="max-w-fit my-16 text-left bg-slate-900 py-5 px-5 px-auto mx-auto">
+    <div class="max-w-xl my-16 text-left bg-slate-900 py-5 px-5 px-auto mx-auto">
         <pre>
             <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
 
@@ -157,7 +157,7 @@
             or run the Julia file with the program
         </span>
     </div>
-    <div class="max-w-fit mb-16 mt-8 text-left bg-slate-900 py-5 px-5 px-auto mx-auto text-white">
+    <div class="max-w-xl mb-16 mt-8 text-left bg-slate-900 py-5 px-5 px-auto mx-auto text-white">
         <pre>
             <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" alt="" class="h-8 w-8 absolute"><span class="text-white ml-8">&nbsp;status.jl</span>
 
@@ -171,7 +171,7 @@
         instead of <span class="bg-slate-200 rounded-lg px-2 font-medium">==</span>.
         To install a package using <span class="font-bold">requirements.txt</span> in Julia
     </p>
-    <div class="my-16 text-left bg-slate-900 py-5 px-5 max-w-fit px-auto mx-auto">
+    <div class="my-16 text-left bg-slate-900 py-5 px-5 max-w-xl px-auto mx-auto">
         <pre>
             <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
 
@@ -187,7 +187,7 @@
         </pre>
     </div>
 
-    <div class="max-w-fit mb-16 mt-8 text-left bg-slate-900 py-5 px-5 px-auto mx-auto text-white">
+    <div class="max-w-xl mb-16 mt-8 text-left bg-slate-900 py-5 px-5 px-auto mx-auto text-white">
         <pre>
             <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" alt="" class="h-8 w-8 absolute"><span class="text-white ml-8">&nbsp;install.jl</span>
 
