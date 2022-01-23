@@ -7,8 +7,8 @@
     window.addEventListener("DOMContentLoaded", function() {
         window.addEventListener("scroll", function() {
             if (window.scrollY >= 800) {
-                isPositionLanguage = true
-            }
+                isPositionLanguage = true;
+			}
         });
     });
 </script>
@@ -73,18 +73,18 @@
 
 <div class="flex justify-between max-w-5xl px-auto mx-auto">
     {#if isPositionLanguage}
-    <div style="width: 18%;" transition:fly="{{delay: 500, duration: 800, x: -500}}">
-        <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
-    </div>
-    <div style="width: 18%;" transition:fly="{{delay: 500, duration: 800, y: 500}}">
-        <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" />
-    </div>
-    <div style="width: 18%;" transition:fly="{{delay: 500, duration: 800, y: -500}}">
-        <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" />
-    </div>
-    <div class="" style="width: 18%;" transition:fly="{{delay: 500, duration: 800, x: 500}}">
-        <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" />
-    </div>
+        <div style="width: 18%;" transition:fly="{{delay: 500, duration: 800, x: -500}}">
+            <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+        </div>
+        <div style="width: 18%;" transition:fly="{{delay: 500, duration: 800, y: 500}}">
+            <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" />
+        </div>
+        <div style="width: 18%;" transition:fly="{{delay: 500, duration: 800, y: -500}}">
+            <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" />
+        </div>
+        <div class="" style="width: 18%;" transition:fly="{{delay: 500, duration: 800, x: 500}}">
+            <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" />
+        </div>
     {/if}
 </div>
 
