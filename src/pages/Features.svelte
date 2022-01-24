@@ -1,5 +1,4 @@
 <script>
-    import Image from "svelte-image";
     import { Link } from "svelte-routing";
 </script>
 
@@ -24,18 +23,18 @@
                     reqGene is compatible with all major operating systems: Windows, Mac, and Linux. It can also be used with all browsers.
                 </p>
             </div>
-            <div class="flex gap-16 justify-center h-fit">
-                <div style="width: 30%;">
-                    <Image src="images/windows-icon-png-5814.png"/>
+            <div class="gap-16 justify-center h-fit flex">
+                <div class="w-1/4">
+                    <img src="images/windows-icon-png-5814.png" alt="windows">
                 </div>
-                <div style="width: 30%;">
-                    <Image src="images/mac-icon-3309.png"/>
+                <div class="w-1/4">
+                    <img src="images/mac-icon-3309.png" alt="mac">
                 </div>
-                <div style="width: 30%;">
-                    <Image src="images/linux-icon-28163.png"/>
+                <div class="w-1/4">
+                    <img src="images/linux-icon-28163.png" alt="linux">
                 </div>
-                <div style="width: 30%;">
-                    <Image src="images/google-chrome-icon-3124.png"/>
+                <div class="w-1/4">
+                    <img src="images/google-chrome-icon-3124.png" alt="browser">
                 </div>
             </div>
         </div>
@@ -49,18 +48,18 @@
                     Just click the button to create requirements.txt immediately.
                 </p>
             </div>
-            <div class="flex gap-16 justify-center h-fit">
-                <div class="" style="width: 30%;">
-                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+            <div class="gap-16 justify-center h-fit flex">
+                <div class="w-1/4">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python">
                 </div>
-                <div class="" style="width: 30%;">
-                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" />
+                <div class="w-1/4">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" alt="julia">
                 </div>
-                <div class="" style="width: 30%;">
-                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" />
+                <div class="w-1/4">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go">
                 </div>
-                <div class="" style="width: 30%;">
-                    <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" />
+                <div class="w-1/4">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" alt="jupyter">
                 </div>
             </div>
         </div>
