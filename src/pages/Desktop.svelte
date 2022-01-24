@@ -6,9 +6,9 @@
     let isPositionLanguage = false;
     window.addEventListener("DOMContentLoaded", function() {
         window.addEventListener("scroll", function() {
-            if (window.scrollY >= 800) {
+            if (window.scrollY >= 750) {
                 isPositionLanguage = true;
-			}
+	    }
         });
     });
 </script>
