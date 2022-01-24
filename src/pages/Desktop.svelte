@@ -127,7 +127,7 @@
                 <div class="mt-3 mb-5">
                     <span class="flex text-2xl font-bold">
                         Learn more
-                        <span class="mt-1">
+                        <span class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none">
                                 <path stroke="#2962FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 22l5.5-5.5L13 11"></path>
                             </svg>
@@ -154,7 +154,7 @@
                 <div class="mt-3 mb-5">
                     <span class="flex text-2xl font-bold">
                         Explore features
-                        <span class="mt-1">
+                        <span class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none">
                                 <path stroke="#2962FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 22l5.5-5.5L13 11"></path>
                             </svg>
