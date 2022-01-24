@@ -23,12 +23,12 @@
 					</span>
 				</Link>
 				<Link to="features">
-					<span class="text-slate-900 hover:rounded-full text-xl ml-4 py-2 px-3 font-bold border-zinc-900 hover:bg-slate-200 hover:rounded-3xl">
+					<span class="text-slate-900 text-xl ml-4 py-2 px-3 font-bold border-zinc-900 hover:bg-slate-200 hover:rounded-3xl">
 						Features
 					</span>
 				</Link>
 				<Link to="learn">
-					<span class="text-slate-900 hover:rounded-full text-xl ml-4 py-2 px-3 font-bold border-zinc-900 hover:bg-slate-200 hover:rounded-3xl">
+					<span class="text-slate-900 text-xl ml-4 py-2 px-3 font-bold border-zinc-900 hover:bg-slate-200 hover:rounded-3xl">
 						Learn
 					</span>
 				</Link>
