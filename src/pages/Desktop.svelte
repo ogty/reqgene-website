@@ -109,7 +109,7 @@
     </div>
 </div>
 
-<div class="gird-cols-2 px-auto mx-auto flex mt-48 border-2 rounded-3xl mix-w-fit text-slate-900 mx-48">
+<div class="gird-cols-2 flex mt-48 border-2 rounded-3xl mix-w-fit text-slate-900 mx-48">
     <div class="border-r-2 pb-8 px-20 col-start-1 col-end-2 block w-1/2">
         <div class="max-h-fit">
             <i class="fas fa-file-alt md:text-8xl my-12"></i>

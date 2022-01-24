@@ -82,7 +82,7 @@
     <div class="col-end-7 col-span-4 p-10 mt-16">
         <div class="text-left bg-slate-900 py-5 px-5 max-w-xl px-auto mx-auto text-xl">
             <pre>
-                <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
+                <code><span class="absolute"><img src="images/file_type_pip.png" alt=""></span><span class="text-white absolute ml-8">&nbsp;requirements.txt</span>
 
 <span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">CSV</span><span class="animate-pulse"><span class="text-rose-600">@</span><span class="text-sky-500">v0.8.5</span></span>
 <span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">DataFrames</span><span class="animate-pulse"><span class="text-rose-600">@</span><span class="text-sky-500">v0.22.7</span></span>
@@ -153,7 +153,7 @@
             </div>
             <div class="text-left bg-slate-900 py-5 px-5 max-w-xl px-auto mx-auto text-2xl ml-10">
                 <pre>
-                    <code><i class="fas fa-align-left text-gray-500"></i><span class="text-white">&nbsp;requirements.txt</span>
+                    <code><span class="absolute"><img src="images/file_type_pip.png" alt=""></span><span class="text-white absolute ml-8">&nbsp;requirements.txt</span>
     
 <span class="text-white">&nbsp;1&nbsp;</span><span class="text-violet-500">matplotlib</span><span><span class="text-rose-600">==</span><span class="text-sky-500">3.3.4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <span class="text-white">&nbsp;2&nbsp;</span><span class="text-violet-500">numpy</span><span><span class="text-rose-600">==</span><span class="text-sky-500">1.19.5</span></span>
