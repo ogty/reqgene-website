@@ -1,0 +1,143 @@
+<script>
+    const config = {
+        python: [["import", "from"], ["time", "datetime", "os", "sys", "unittest"]], 
+        julia: [["import", "using"], ["Dates", "Base", "Pkg"]]
+    }
+    
+    function module_extractor(source, language) {
+        let splited_source = source.split("\n")
+        splited_source = splited_source.filter(item => item.match(" "));
+
+        let module_prefix = [""];
+        let embedded_module = [""];
+        if (language == "python") {
+            module_prefix = config.python[0]
+            embedded_module = config.python[1]
+        } else if (language == "julia") {
+            module_prefix = config.julia[0]
+            embedded_module = config.julia[1]
+        }
+
+        let module_lines = []
+        for (let i = 0; i < splited_source.length; i++) {
+            if (splited_source[i].startsWith("from") || splited_source[i].startsWith("import")) {
+                module_lines.push(splited_source[i])
+            }
+        }
+
+        let result = module_lines.map(line => line.split(" ")[1]);
+
+        let complete = []
+        for (let i = 0; i < result.length; i++) {
+            let tmp = result[i].split(".")
+            if (tmp[0] == "") {
+                complete.push(tmp[1])
+            } else {
+                complete.push(tmp[0])
+            }
+        }
+
+        let del_modules = [""];
+        for (let i = 0; i < complete.length; i++) {
+            for (let j = 0; j < embedded_module.length; j++) {
+                let tmp = embedded_module[j].indexOf(complete[i])
+                if (tmp >= 0) {
+                    del_modules.push(complete[i])
+                }
+            }
+        }
+        complete = complete.filter(i => del_modules.indexOf(i) == -1)
+        return complete
+    }
+    function extractModules(f) {
+        let reader = new FileReader();
+        reader.onload = function() {
+            return function(e){
+                let result = module_extractor(e.target.result, "python")
+                for (let i = 0; i < result.length; i++) {
+                    jQuery("#select_modules").append(
+                        "<label for='module" + String(i) + "'>" + 
+                        "<input type='checkbox' value='" + result[i] + 
+                        "' id='module" + String(i) + 
+                        "' checked>" + result[i] + 
+                        "</label>")
+                }
+                jQuery("#download").append("<div class='hover:cursor-pointer float-right my-3 text-center'><span class='bg-slate-900 px-3 py-2 rounded-md text-white font-bold text-xl'><a download='requirements.txt' href='data:," + result.join("\n") + "'>Download</a></span><div>")
+            }
+        }(f)
+        reader.readAsText(f);
+    }
+
+    let files;
+	$: if (files) {
+		for (const file of files) {
+            extractModules(file)
+		}
+	}
+</script>
+
+
+<div id="message_box">&nbsp;</div>
+<div class="px-48 h-screen">
+    <div class="flex mx-auto px-auto">
+        <div class="w-1/2 p-10">
+            <div class="">
+                <span class="font-bold text-xl">Languages</span>
+                <div class="w-full flex my-2">
+                    <label class="mr-3" for=""><input class="mr-1" type="radio" name="language" value="python" checked>Python</label>
+                    <label class="mr-3" for=""><input class="mr-1" type="radio" name="language" value="pythonipynb">Python-Ipynb</label>
+                    <label class="mr-3" for=""><input class="mr-1" type="radio" name="language" value="julia">Julia</label>
+                    <label class="mr-3" for=""><input class="mr-1" type="radio" name="language" value="juliaipynb">Julia-Ipynb</label>
+                    <label class="mr-3" for=""><input class="mr-1" type="radio" name="language" value="go">Go</label>
+                </div>
+            </div>
+            <div class="mt-8">
+                <span class="font-bold text-xl">Selected</span>
+                <div class="border-2 border-slate-900 text-center block rounded-md my-2">
+                    {#if files}
+                        {#each Array.from(files) as file}
+                            <div>
+                                <span>{file.name}</span>
+                            </div>
+                        {/each}
+                    {:else}
+                        <div>
+                            <span>No Selected</span>
+                        </div>
+                    {/if}
+                </div>
+            </div>
+            <div class="mt-8">
+                <div class="flex border-2 border-slate-900 rounded-md text-center text-slate-900">
+                    <span class="w-1/2 py-2 border-r-2 border-slate-900 px-8 hover:bg-slate-900 hover:text-white">Reset</span>
+                    <span class="w-1/2 py-2 px-8 hover:bg-slate-900 hover:text-white">Generate</span>
+                </div>
+            </div>
+            <div class="mt-8" id="select_modules">
+                
+            </div>
+            <div id="download">
+    
+            </div>
+        </div>
+        <div class="w-1/2 border-l-2 border-dotted border-slate-900 p-10 mx-auto px-auto">
+            <div class="p-10 border-2 border-dotted border-slate-900 text-center rounded-xl block">
+                <div class="mt-48">
+                    <span class="md:text-8xl text-slate-900"><i class="fas fa-file-upload"></i></span>
+                </div>
+                <div class="mt-3">
+                    <span class="font-bold text-slate-900 text-2xl">Drag & Drop to Upload File</span>
+                </div>
+                <div>
+                    <span class="text-slate-900 text-xl">OR</span>
+                </div>
+                <div class="mt-3 mb-48 hover:cursor-pointer">
+                    <span class="hidden">
+                        <input id="xxx" type="file" bind:files multiple>
+                    </span>
+                    <label for="xxx" class="font-bold cursor-pointer text-gray-900 border-2 border-slate-900 bg-gray-100 rounded-md px-3 py-1">Select File</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
