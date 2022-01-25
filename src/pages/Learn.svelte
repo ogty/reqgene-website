@@ -191,7 +191,7 @@
         <pre>
             <code><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" alt="" class="h-8 w-8 absolute"><span class="text-white ml-8 absolute">&nbsp;install.jl</span>
 
-<span class="text-white">&nbsp;1&nbsp;</span><span class="text-red-500">using</span> Pkg; Pkg.<span class="text-blue-500">add</span>(<span class="text-blue-500">open</span>(f<span class="text-red-500">-&gt;</span>f.<span class="text-blue-500">readlines</span>(f), <span class="text-sky-500">&quot;requirements.txt &quot;</span>))
+<span class="text-white">&nbsp;1&nbsp;</span><span class="text-red-500">using</span> Pkg; Pkg.<span class="text-blue-500">add</span>(<span class="text-blue-500">open</span>(f<span class="text-red-500">-&gt;</span>f.<span class="text-blue-500">readlines</span>(f), <span class="text-sky-500">&quot;requirements.txt&quot;</span>))
             </code>
         </pre>
     </div>
