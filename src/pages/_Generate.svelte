@@ -133,7 +133,7 @@
                 </div>
                 <div class="mt-3 mb-48 hover:cursor-pointer">
                     <span class="hidden">
-                        <input id="xxx" type="file" bind:files multiple>
+                        <input id="xxx" type="file" accept=".py,.julia,.go,.ipynb" bind:files multiple>
                     </span>
                     <label for="xxx" class="font-bold cursor-pointer text-gray-900 border-2 border-slate-900 bg-gray-100 rounded-md px-3 py-1">Select File</label>
                 </div>
