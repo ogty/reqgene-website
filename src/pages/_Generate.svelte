@@ -3,7 +3,9 @@
         python: [["import", "from"], ["time", "datetime", "os", "sys", "unittest"]], 
         julia: [["import", "using"], ["Dates", "Base", "Pkg"]]
     }
-    
+    // jQuery.getJSON("data/config.json", (data) => {
+    //     console.log(data);
+    // });
     function module_extractor(source, language) {
         let splited_source = source.split("\n")
         splited_source = splited_source.filter(item => item.match(" "));
