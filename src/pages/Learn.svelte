@@ -1,3 +1,4 @@
+<!-- TODO: Change the command input animation -->
 <script>
     import { Link } from "svelte-routing";
 
