@@ -15,7 +15,7 @@
 
 <div class="text-center mt-28 mb-8">
     <div class="w-xl xl:px-24">
-        <h1 class="text-8xl font-bold text-slate-900">requirements.txt Generator<br>Desktop</h1>
+        <h1 class="text-8xl text-slate-900 font-bold">requirements.txt Generator<br>Desktop</h1>
         <p class="text-2xl my-12">
             It just creates a single file, but it's fascinating.
         </p>
@@ -25,7 +25,7 @@
 <div class="flex items-center justify-center text-black">
     <div class="flex mx-1">
         <a href="https://github.com/ogty/requirements.txt-generator/releases/download/v1.0.0/requirementstxt_generator_for_windows.zip" class="border border-black rounded p-2 hover:bg-zinc-100 flex">
-            <span class="ml-3 mt-2 mr-2">
+            <span class="mt-2 mr-2 ml-3">
                 <i class="fab fa-windows md:text-3xl"></i>
             </span>
             <span class="mr-3">
@@ -36,7 +36,7 @@
     </div>
     <div class="flex mx-1">
         <a href="https://github.com/ogty/requirements.txt-generator/releases/download/v1.0.0/requirementstxt_generator_for_mac.zip" class="border border-black rounded p-2 hover:bg-zinc-100 flex min-w-300">
-            <span class="ml-5 mt-2 mr-2">
+            <span class="mt-2 mr-2 ml-5">
                 <i class="fab fa-apple md:text-3xl"></i>
             </span>
             <span class="mr-5">
@@ -47,7 +47,7 @@
     </div>
     <div class="flex mx-1">
         <a href="https://github.com/ogty/requirements.txt-generator" class="border border-black rounded p-2 hover:bg-zinc-100 flex">
-            <span class="ml-5 mt-2 mr-2">
+            <span class="mt-2 mr-2 ml-5">
                 <i class="fab fa-linux md:text-3xl"></i>
             </span>
             <span class="mr-6">
@@ -59,12 +59,12 @@
 </div>
 
 <div class="mt-16 mb-48 mx-auto px-auto shadow-2xl" style="width: 75%;">
-    <img src="images/demo.gif" alt="" style="width: 100%;">
+    <img src="images/demo.gif" alt="demo" style="width: 100%;">
 </div>
 
 <div class="text-center mb-8">
     <div class="w-xl">
-        <h1 class="text-8xl font-bold text-slate-900">Multiple language <br>support</h1>
+        <h1 class="text-8xl text-slate-900 font-bold">Multiple language <br>support</h1>
         <p class="text-2xl mt-6">
             Julia and jupyter notebooks also require requirements.txt, <br>and the requirements.txt Generator makes this easy to do.
         </p>
