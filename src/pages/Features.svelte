@@ -3,7 +3,7 @@
 </script>
 
 <div class="px-auto mx-auto text-center my-28">
-    <h1 class="text-slate-900 text-8xl font-bold">I'm sloppy and I need this.</h1>
+    <h1 class="text-slate-900 2xl:text-8xl font-bold xl:text-7xl">I'm sloppy and I need this.</h1>
 </div>
 
 <div class="px-auto mx-auto text-center hover:opacity-90">
@@ -14,7 +14,7 @@
 
 <div class="h-28"></div>
 
-<div class="grid grid-cols-6 gap-4 px-56 xl:w-full xl:px-0">
+<div class="2xl:grid grid-cols-6 gap-4 px-56 xl:w-full xl:block">
     <div class="col-start-1 col-end-4">
         <div class="border-2 border-slate-900 p-10 rounded-2xl">
             <span class="text-5xl font-bold text-slate-900">Execution Environment</span>
@@ -23,7 +23,7 @@
                     reqGene is compatible with all major operating systems: Windows, Mac, and Linux. It can also be used with all browsers.
                 </p>
             </div>
-            <div class="gap-16 justify-center h-fit flex">
+            <div class="gap-16 justify-center h-fit flex xl:px-8 2xl:px-0">
                 <div class="w-1/4">
                     <img src="images/windows-icon-png-5814.png" alt="windows">
                 </div>
@@ -39,7 +39,7 @@
             </div>
         </div>
     </div>
-    <div class="col-start-4 col-end-7">
+    <div class="col-start-4 col-end-7 xl:mt-8 2xl:mt-0">
         <div class="border-2 border-slate-900 p-10 rounded-2xl">
             <span class="text-5xl font-bold text-slate-900">Supported languages</span>
             <div class="h-24">
@@ -48,7 +48,7 @@
                     Just click the button to create requirements.txt immediately.
                 </p>
             </div>
-            <div class="gap-16 justify-center h-fit flex">
+            <div class="gap-16 justify-center h-fit flex 2xl:px-0 xl:px-8">
                 <div class="w-1/4">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python">
                 </div>
@@ -65,8 +65,8 @@
         </div>
     </div>
 
-    <div class="col-start-1 col-end-3 mt-16">
-        <div class="p-10 border-r-8 border-double border-b-8">
+    <div class="col-start-1 col-end-3 2xl:mt-16 xl:mt-24">
+        <div class="p-10 border-r-8 2xl:border-t-0 border-double 2xl:border-b-8 xl:border-t-8 xl:border-b-0">
             <h1 class="font-bold text-4xl text-slate-900">Add Version</h1>
             <p class="my-5 text-xl indent-4">
                 By checking the version checkbox, 
@@ -78,7 +78,7 @@
             </p>
         </div>
     </div>
-    <div class="col-end-7 col-span-4 p-10 mt-16">
+    <div class="col-end-7 col-span-4 p-10 2xl:mt-16 xl:mt-4">
         <div class="text-left bg-slate-900 py-5 px-5 max-w-xl px-auto mx-auto text-xl">
             <pre>
                 <code><span class="absolute"><img src="images/file_type_pip.png" alt=""></span><span class="text-white absolute ml-8">&nbsp;requirements.txt</span>
@@ -96,9 +96,9 @@
         </div>
     </div>
 
-    <div class="col-start-2 col-end-6 border-t-2 border-dashed border-slate-900 mt-10"></div>
+    <div class="col-start-2 col-end-6 border-t-2 border-dashed border-slate-900 2xl:mt-10 xl:mt-16"></div>
     <div class="col-start-2 col-span-4 px-auto mx-auto p-10">
-        <div class="items-center flex-col">
+        <div class="items-center flex-col xl:text-center">
             <ul class="">
                 <li>
                     <i class="fas fa-search md:text-5xl text-slate-900"></i>
@@ -115,7 +115,7 @@
             </ul>
         </div>
     </div>
-    <div class="col-start-2 col-end-6 border-t-2 border-dashed border-slate-900 mb-10"></div>
+    <div class="col-start-2 col-end-6 border-t-2 border-dashed border-slate-900 2xl:mb-10 xl:mb-16"></div>
 
     <div class="col-start-1 col-end-5">
         <div class="flex my-4 p-10">
@@ -163,7 +163,7 @@
         </div>
     </div>
     <div class="col-start-5 col-end-7">
-        <div class="my-4 p-10 border-l-8 border-double border-t-8 border-b-8">
+        <div class="my-4 p-10 border-l-8 border-double 2xl:border-y-8 xl:border-b-8 xl:border-t-0">
             <h1 class="font-bold text-4xl text-slate-900">Select Packages</h1>
             <p class="my-5 text-xl indent-4">
                 You will need this if you are creating the original module. 
@@ -182,7 +182,7 @@
         </div>
     </div>
     <div class="col-end-7 col-span-4 block">
-        <div class="px-auto mx-auto pt-16">
+        <div class="px-auto mx-auto 2xl:pt-16 xl:pt-4">
             <div class="w-4/5 px-auto mx-auto">
                 <h6 class="text-left text-xl font-bold ">C:\Users\user\Desktop\project1</h6>
                 <div class="p-1 text-center px-auto mx-auto hover:opacity-75 hover:cursor-pointer" style="background-color: #3572A5;">
@@ -237,7 +237,7 @@
     </div>
 </div>
 
-<div class="px-auto mx-auto text-center mt-28 hover:opacity-90">
+<div class="px-auto mx-auto text-center 2xl:mt-28 hover:opacity-90 xl:mt-48">
     <Link to="generate">
         <span class="text-white text-2xl font-bold bg-slate-900 px-10 py-5 rounded-full">Generate requirements.txt</span>
     </Link>

@@ -14,7 +14,7 @@
 </script>
 
 <div class="text-center mt-28 mb-8">
-    <div class="w-xl">
+    <div class="w-xl xl:px-24">
         <h1 class="text-8xl font-bold text-slate-900">requirements.txt Generator<br>Desktop</h1>
         <p class="text-2xl my-12">
             It just creates a single file, but it's fascinating.
@@ -73,16 +73,16 @@
 
 <div class="flex justify-between max-w-5xl px-auto mx-auto">
     {#if isPositionLanguage}
-        <div style="width: 18%;" transition:fly="{{delay: 500, duration: 800, x: -500}}">
+        <div class="w-1/5" transition:fly="{{delay: 500, duration: 800, x: -500}}">
             <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
         </div>
-        <div style="width: 18%;" transition:fly="{{delay: 500, duration: 800, y: 500}}">
+        <div class="w-1/5" transition:fly="{{delay: 500, duration: 800, y: 500}}">
             <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/julia/julia-original.svg" />
         </div>
-        <div style="width: 18%;" transition:fly="{{delay: 500, duration: 800, y: -500}}">
+        <div class="w-1/5" transition:fly="{{delay: 500, duration: 800, y: -500}}">
             <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" />
         </div>
-        <div class="" style="width: 18%;" transition:fly="{{delay: 500, duration: 800, x: 500}}">
+        <div class="w-1/5" transition:fly="{{delay: 500, duration: 800, x: 500}}">
             <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" />
         </div>
     {/if}
@@ -109,8 +109,8 @@
     </div>
 </div>
 
-<div class="gird-cols-2 flex mt-48 border-2 rounded-3xl mix-w-fit text-slate-900 mx-48">
-    <div class="border-r-2 pb-8 px-20 col-start-1 col-end-2 block w-1/2">
+<div class="gird-cols-2 flex mt-48 border-2 rounded-3xl mix-w-fit text-slate-900 mx-48 xl:block">
+    <div class="border-r-2 pb-8 px-20 col-start-1 col-end-2 block w-1/2 xl:border-r-0 xl:border-b-2 xl:w-fit">
         <div class="max-h-fit">
             <i class="fas fa-file-alt md:text-8xl my-12"></i>
         </div>
@@ -137,7 +137,7 @@
             </Link>
         </div>
     </div>
-    <div class="px-20 pb-8 col-start-2 col-end-3 block w-1/2">
+    <div class="px-20 pb-8 col-start-2 col-end-3 block w-1/2 xl:w-fit">
         <div class="max-h-fit">
             <i class="fas fa-eye md:text-8xl my-12"></i>
         </div>
