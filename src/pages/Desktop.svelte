@@ -109,8 +109,8 @@
     </div>
 </div>
 
-<div class="gird-cols-2 flex mt-48 border-2 rounded-3xl mix-w-fit text-slate-900 mx-48 xl:block">
-    <div class="border-r-2 pb-8 px-20 col-start-1 col-end-2 block w-1/2 xl:border-r-0 xl:border-b-2 xl:w-fit">
+<div class="gird-cols-2 2xl:flex mt-48 border-2 rounded-3xl mix-w-fit text-slate-900 mx-48 xl:block">
+    <div class="2xl:border-r-2 pb-8 px-20 col-start-1 col-end-2 block 2xl:w-1/2 xl:border-r-0 xl:border-b-2 xl:w-fit">
         <div class="max-h-fit">
             <i class="fas fa-file-alt md:text-8xl my-12"></i>
         </div>
@@ -137,7 +137,7 @@
             </Link>
         </div>
     </div>
-    <div class="px-20 pb-8 col-start-2 col-end-3 block w-1/2 xl:w-fit">
+    <div class="px-20 pb-8 col-start-2 col-end-3 block 2xl:w-1/2 xl:w-fit">
         <div class="max-h-fit">
             <i class="fas fa-eye md:text-8xl my-12"></i>
         </div>
