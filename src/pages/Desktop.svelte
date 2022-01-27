@@ -213,7 +213,6 @@
 <div class="text-center mt-3">
     <span>or</span>
 </div>
-
 <div class="mt-3 w-44 mx-auto px-auto">
     <Link to="generate">
         <a href="/" class="border border-black rounded p-2 hover:bg-zinc-100 flex -mr-2">

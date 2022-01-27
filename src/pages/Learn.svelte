@@ -5,9 +5,9 @@
     const _sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 </script>
 
-<h1 class="2xl:text-8xl text-center my-28 font-bold text-slate-900 xl:text-7xl">What's requirements.txt?</h1>
+<h1 class="text-center my-28 font-bold text-slate-900 xl:text-7xl 2xl:text-8xl">What's requirements.txt?</h1>
 
-<div class="text-center text-2xl px-auto mx-auto 2xl:px-72 xl:px-56 xl:w-full">
+<div class="text-center text-2xl px-auto mx-auto xl:px-56 xl:w-full 2xl:px-72">
     <p class="my-3">
         <span class="font-bold">requirements.txt</span> is a text file used in the Python programming language to share a project with other users, 
         or to restore the environment. In this file, you need to specify the external packages required by your project.
@@ -38,13 +38,14 @@
             </code>
         </pre>
     </div>
+
     <p class="my-3">
         Record the package list in <span class="font-bold">requirements.txt</span> and run either of the following commands to install the package. 
         The option is <span class="bg-slate-200 rounded-lg px-2 font-medium">-r &nbsp; : &nbsp; --requirement &lt; file &gt;</span>.
     </p>
     
     <div class="my-16 xl:relative 2xl:static">
-        <div class="flex 2xl:w-2/3 2xl:static mx-auto px-auto bg-gray-700 h-8 rounded-t text-base xl:w-full xl:absolute">
+        <div class="flex mx-auto px-auto bg-gray-700 h-8 rounded-t text-base xl:w-full xl:absolute 2xl:w-2/3 2xl:static">
             <div class="py-3 pl-3">
                 <span class="bg-red-500 rounded-full">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             </div>
@@ -58,7 +59,7 @@
                 <span class="text-gray-400">bash</span>
             </div>
         </div>
-        <div class="2xl:w-2/3 mx-auto px-auto bg-gray-700 h-fit rounded-b p-16 text-left tracking-wider xl:w-full">
+        <div class="mx-auto px-auto bg-gray-700 h-fit rounded-b p-16 text-left tracking-wider xl:w-full 2xl:w-2/3">
             <span class="font-bold text-white text-xl mb-5">
                 <span class="text-gray-400 mr-3">$</span> {#await _sleep(150)}&nbsp;{:then}p{/await}{#await _sleep(300)}&nbsp;{:then}i{/await}{#await _sleep(450)}&nbsp;{:then}p{/await}{#await _sleep(600)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(750)}&nbsp;{:then}i{/await}{#await _sleep(900)}&nbsp;{:then}n{/await}{#await _sleep(1050)}&nbsp;{:then}s{/await}{#await _sleep(1200)}&nbsp;{:then}t{/await}{#await _sleep(1350)}&nbsp;{:then}a{/await}{#await _sleep(1500)}&nbsp;{:then}l{/await}{#await _sleep(1650)}&nbsp;{:then}l{/await}{#await _sleep(1800)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(1950)}&nbsp;{:then}-{/await}{#await _sleep(2100)}&nbsp;{:then}r{/await}{#await _sleep(2250)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(2400)}&nbsp;{:then}r{/await}{#await _sleep(2550)}&nbsp;{:then}e{/await}{#await _sleep(2700)}&nbsp;{:then}q{/await}{#await _sleep(2850)}&nbsp;{:then}u{/await}{#await _sleep(3000)}&nbsp;{:then}i{/await}{#await _sleep(3150)}&nbsp;{:then}r{/await}{#await _sleep(3300)}&nbsp;{:then}e{/await}{#await _sleep(3450)}&nbsp;{:then}m{/await}{#await _sleep(3600)}&nbsp;{:then}e{/await}{#await _sleep(3750)}&nbsp;{:then}n{/await}{#await _sleep(3900)}&nbsp;{:then}t{/await}{#await _sleep(4050)}&nbsp;{:then}s{/await}{#await _sleep(4200)}&nbsp;{:then}.{/await}{#await _sleep(4350)}&nbsp;{:then}t{/await}{#await _sleep(4500)}&nbsp;{:then}x{/await}{#await _sleep(4650)}&nbsp;{:then}t{/await}
             </span>
@@ -72,6 +73,7 @@
     <p class="my-3">
         You can also specify the version when recording the package in <span class="font-bold">requirements.txt</span>.
     </p>
+
     <div class="my-16">
         <table class="table-fixed border-collapse border border-slate-500 mx-auto px-auto my-5">
             <thead class="bg-gray-100">
@@ -96,13 +98,14 @@
             </tbody>
         </table>
     </div>
+
     <p class="my-3">
         To view the version of the external package in the current environment, 
         run the <span class="bg-slate-200 rounded-lg px-2 font-medium">pip freeze</span> command. Also, to write it to <span class="font-bold">requirements.txt</span>, use 
     </p>
 
     <div class="my-16 xl:relative 2xl:static">
-        <div class="flex 2xl:w-2/3 2xl:static mx-auto px-auto bg-gray-700 h-8 rounded-t text-base xl:w-full xl:absolute">
+        <div class="flex mx-auto px-auto bg-gray-700 h-8 rounded-t text-base xl:w-full xl:absolute 2xl:w-2/3 2xl:static">
             <div class="py-3 pl-3">
                 <span class="bg-red-500 rounded-full">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             </div>
@@ -116,7 +119,7 @@
                 <span class="text-gray-400">bash</span>
             </div>
         </div>
-        <div class="2xl:w-2/3 mx-auto px-auto bg-gray-700 h-fit rounded-b p-16 text-left tracking-wider xl:w-full">
+        <div class="mx-auto px-auto bg-gray-700 h-fit rounded-b p-16 text-left tracking-wider xl:w-full 2xl:w-2/3">
             <span class="font-bold text-white text-xl">
                 <span class="text-gray-400 mr-3">$</span> {#await _sleep(200)}&nbsp;{:then}p{/await}{#await _sleep(400)}&nbsp;{:then}i{/await}{#await _sleep(600)}&nbsp;{:then}p{/await}{#await _sleep(800)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(1000)}&nbsp;{:then}f{/await}{#await _sleep(1200)}&nbsp;{:then}r{/await}{#await _sleep(1400)}&nbsp;{:then}e{/await}{#await _sleep(1600)}&nbsp;{:then}e{/await}{#await _sleep(1800)}&nbsp;{:then}z{/await}{#await _sleep(2000)}&nbsp;{:then}e{/await}{#await _sleep(2200)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(2400)}&nbsp;{:then} &gt;{/await}{#await _sleep(2600)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(2800)}&nbsp;{:then}r{/await}{#await _sleep(3000)}&nbsp;{:then}e{/await}{#await _sleep(3200)}&nbsp;{:then}q{/await}{#await _sleep(3400)}&nbsp;{:then}u{/await}{#await _sleep(3600)}&nbsp;{:then}i{/await}{#await _sleep(3800)}&nbsp;{:then}r{/await}{#await _sleep(4000)}&nbsp;{:then}e{/await}{#await _sleep(4200)}&nbsp;{:then}m{/await}{#await _sleep(4400)}&nbsp;{:then}e{/await}{#await _sleep(4600)}&nbsp;{:then}n{/await}{#await _sleep(4800)}&nbsp;{:then}t{/await}{#await _sleep(5000)}&nbsp;{:then}s{/await}{#await _sleep(5200)}&nbsp;{:then}.{/await}{#await _sleep(5400)}&nbsp;{:then}t{/await}{#await _sleep(5600)}&nbsp;{:then}x{/await}{#await _sleep(5800)}&nbsp;{:then}t{/await}
             </span>
@@ -130,6 +133,7 @@
         
         In Julia, you can check the currently installed external packages and their versions by typing <span class="bg-slate-200 rounded-lg px-2 font-medium">] -> status</span> in the REPL and running
     </p>
+
     <div class="my-16">
         <div class="my-16 xl:relative 2xl:static">
             <div class="flex 2xl:w-2/3 2xl:static mx-auto px-auto bg-gray-700 h-8 rounded-t text-base xl:w-full xl:absolute">
@@ -146,7 +150,7 @@
                     <span class="text-xl text-gray-400">bash</span>
                 </div>
             </div>
-            <div class="2xl:w-2/3 mx-auto px-auto bg-gray-700 rounded-b p-16 text-left tracking-wider xl:w-full">
+            <div class="mx-auto px-auto bg-gray-700 rounded-b p-16 text-left tracking-wider xl:w-full 2xl:w-2/3">
                 <span class="font-bold text-white text-xl mb-5">
                     <span class="mb-5"><span class="text-gray-400 mr-3">$</span>{#await _sleep(150)}&nbsp;{:then}j{/await}{#await _sleep(300)}&nbsp;{:then}u{/await}{#await _sleep(450)}&nbsp;{:then}l{/await}{#await _sleep(600)}&nbsp;{:then}i{/await}{#await _sleep(750)}&nbsp;{:then}a{/await}<br></span>
                     <span class="mb-5"><span class="text-green-400">julia &gt;</span> <span class="text-gray-500">{#await _sleep(900)}&nbsp;{:then}#{/await}{#await _sleep(1050)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(1200)}&nbsp;{:then}p{/await}{#await _sleep(1350)}&nbsp;{:then}r{/await}{#await _sleep(1500)}&nbsp;{:then}e{/await}{#await _sleep(1650)}&nbsp;{:then}s{/await}{#await _sleep(1800)}&nbsp;{:then}s{/await}{#await _sleep(1950)}&nbsp;{:then}&nbsp;{/await}{#await _sleep(2100)}&nbsp;{:then}]{/await}</span><br></span>
@@ -172,6 +176,7 @@
         instead of <span class="bg-slate-200 rounded-lg px-2 font-medium">==</span>.
         To install a package using <span class="font-bold">requirements.txt</span> in Julia
     </p>
+
     <div class="my-16 text-left bg-slate-900 py-5 px-5 max-w-xl px-auto mx-auto">
         <pre>
             <code><span class="absolute"><img src="images/file_type_pip.png" alt=""></span><span class="text-white absolute ml-8">&nbsp;requirements.txt</span>
