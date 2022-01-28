@@ -7,7 +7,7 @@
 
 <h1 class="text-center my-28 font-bold text-slate-900 xl:text-7xl 2xl:text-8xl">What's requirements.txt?</h1>
 
-<div class="text-center text-2xl px-auto mx-auto xl:px-56 xl:w-full 2xl:px-72">
+<div class="text-center text-2xl px-auto mx-auto xl:px-56 xl:w-full 2xl:w-4/5">
     <p class="my-3">
         <span class="font-bold">requirements.txt</span> is a text file used in the Python programming language to share a project with other users, 
         or to restore the environment. In this file, you need to specify the external packages required by your project.
