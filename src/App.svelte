@@ -56,7 +56,7 @@
 			</span>
 		</div>
 		<div class="basis-1/4 mt-7">
-			<span class="px-auto mx-auto font-bold border-zinc-900">We are TECH.C. 2022</span>
+			<span class="px-auto mx-auto font-bold border-zinc-900"></span>
 		</div>
 		<div class="basis-1/4 mt-6">
 			<a href="https://github.com/ogty/requirements.txt-generator" target="_blank">
